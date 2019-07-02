@@ -7,10 +7,12 @@ base_url: https://graphicsprinciples.github.io/case-studies
 canonical_url: https://graphicsprinciples.github.io/case-studies
 navbar:
   right:
-    - text: "Home"
-      href: https://graphicsprinciples.github.io
     - text: "Case studies"
       href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Graphics principles"
+      href: https://graphicsprinciples.github.io
     - icon: fab fa-github
       href: https://github.com/GraphicsPrinciples
 output: radix::radix_article
