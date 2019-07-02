@@ -1,0 +1,100 @@
+---
+title: 'Improving a "waterfall plot"'
+description: |
+  The importance of aligning with the scientific question.
+author:
+  - name: Marc Vandemeulebroecke, Mark Baillie, Alison Margolskee and Baldur Magnusson  
+    url: https://graphicsprinciples.github.io/
+date: "`r Sys.Date()`"
+bibliography: paper.bib
+draft: true
+output:
+  radix::radix_article:
+    self_contained: false
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  echo = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  comment = "##",
+  R.options = list(width = 60)
+)
+
+library(tidyverse)
+library(RxODE)
+library(caTools)
+library(rstanarm)
+library(gridExtra)
+library(data.table)
+library(grid)
+library(RColorBrewer)
+
+theme_set(theme_linedraw(base_size = 12))
+lbr <- scales::trans_breaks("log10", function(x) 10^x)
+llb <- scales::trans_format("log10", scales::math_format(10^.x))
+```
+
+```{r}
+## Simulate data 
+n <- 30
+r <- 2 / 3
+id <- 1:n
+time <- 0:4
+
+ztext <- factor(c("Placebo", "Active"), 
+                levels = c("Placebo", "Active"))
+dx <- tibble(
+  id = id,
+  x1 = rnorm(n, 0, .1),
+  x2 = rnorm(n, 1, .2),
+  z  = c(rep(0, n * (1 - r)), rep(1, n * r)),
+  a  = rnorm(n, 10, 2),
+  bm = -z * 0.75,
+  b  = rnorm(n, bm, 1)
+)
+
+dres <- as_tibble(expand.grid(id = 1:n, time = time)) %>%
+  inner_join(dx, by = "id") %>%
+  mutate(
+    baseline = a + x1 + x2,
+    incrmean = b
+    ) %>%
+  arrange(id, z, time)
+
+dres$incr <- with(dres, rnorm(n * 5, incrmean, 1))
+dres$incr[dres$time == 0] <- 0
+
+dres <- dres %>%
+  group_by(id) %>%
+  do({
+    ci <- cumsum(.$incr)
+    csi <- ci / sqrt(1:length(time))
+    y <- .$baseline + csi
+    rv <- bind_cols(., data_frame(ci, csi, y))
+    }) %>%
+  ungroup() %>%
+  mutate(cfb = y - baseline)
+
+dres$ztext <- ztext[dres$z + 1]
+
+t4dat <- filter(dres, time == 4) %>%
+  arrange(cfb) %>% 
+  mutate(sort_id = 1:n())
+```
+
+
+
+This case study illustrates the importance of aligning a graph with the scientific question it should address, the option of filtering signals through a model, and finally the display of a scientific answer in a condensed messaging graph.
+Consider a small early development trial, randomized and placebo-controlled (2:1 randomization), with a continuous primary endpoint measured at baseline and longitudinally over a period of 4 weeks. Lower outcome values are better, and there are no dropouts and no missing data. Suppose that the team is interested in the effect of the drug at the last measurement time point, as it is often the case. A common approach in early development trials is to simply plot the observed change scores in a so-called “waterfall plot” such as Figure 9A.
+
+To probe Law 1, what is the question addressed by this plot? It asks about the treatment effect after 4 weeks of treatment. Is this the right question? Let us assume for a moment that it is. Then a waterfall plot is not ideal for addressing it [@Mercier2019]. Small treatment effects are difficult to discern, especially with an unbalanced randomization ratio. The audience must observe the distribution of color across the entire plot just to determine which treatment is more beneficial; this can become even more difficult with a larger sample size or more than two treatment groups. In Figure 9A, one might see a treatment benefit, but how large is it and how certain of it are we? The popularity of waterfall plots is a mystery.
+
+If we insist on week 4 as the only time point of interest, we could present overlaid density plots or side-by-side boxplots for a better appreciation of the difference in distribution between the two treatment arms. Figure 9B shows an example with the raw data points included, which is a much better alternative to Figure 9A. The side-by-side placement facilitates the treatment comparison, and the plot is simple, familiar and uses minimal ink for what it shows. Graphical attributes (colors, font size, etc.) are easily readable.
+
+However, with such rich longitudinal data, it may be more informative to ask the question about the treatment effect during – not just after – the first 4 weeks of treatment. This is especially relevant in the early, more exploratory development phase (and it would be even more relevant if there were dropouts). As a rule, the recommended first step is to visualize the totality of the data. Figure 9C does this and includes means by treatment and time point. We see large inter-individual variability and overlap between the treatment groups. We also start to get an appreciation for the time-course of a mean effect. We see linear trajectories of the means over time, with the active arm appearing to improve and the placebo arm staying fairly constant. We cannot exclude that the apparent gap might continue to increase beyond 4 weeks of treatment. This plot, while doing little more than displaying the raw data, is already worth sharing with the project team. It facilitates a much richer understanding of the data than the previous two plots. It shows the data clearly (Law 2).
+
+Depending on the goal of the analysis, we could stop here. But if we want to quantify the treatment difference while adjusting for important covariates, we should proceed with a statistical model. Based on Figure 9C a linear model appears appropriate. We fit a linear model with treatment, patient-specific intercept and slope, and we now also adjust for the baseline value of the primary endpoint and for any other important covariates.  We can then visualize the data filtered through this model, omitting the raw data but displaying longitudinal point estimates and some form of uncertainty intervals for both treatment groups (Figure 9D). This gets closer to the nature of a messaging graph, focusing directly on the results of our model. Optionally – and depending on the audience! – we could even go one final step further and display the treatment difference directly, as in Figure 9E. This plot addresses the question about the treatment effect over time without requiring any mental arithmetic. We can read off approximate estimates for the treatment effect, and the level of confidence is easily appreciable from the added confidence band (which does include zero!). Appropriate and parsimonious annotations make the message even more obvious (Law 3), also through “effectively redundant” information (stating what can be seen).
+
+It is worth emphasizing that this last plot should not be the only one generated, and probably not the only one shown either. Strongly reduced messaging graphs require a robust understanding of the underlying data, which can only be built through a workflow such as the one described above. Further, depending on the situation and the audience, they might be challenged as loaded or unscientific. (E.g., the apparently perfect linear trend in Figure 9E appears “unrealistic”.) It is therefore important to ensure and emphasize that this last plot derives from a model which (as every model) is intended to separate the signal from the noise, and that the choice of this model is justified by a thorough inspection of the data.
