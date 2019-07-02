@@ -1,0 +1,32 @@
+---
+title: "Graphics Principles Cheat Sheet"
+description: |
+  A concise and accessible resource for everyday practical use. 
+author:
+  - name: "Marc Vandemeulebroecke"  
+    url: https://graphicsprinciples.github.io/
+  - name: "Mark Baillie"
+    url: https://graphicsprinciples.github.io/
+  - name: "Alison Margolskee"
+    url: https://graphicsprinciples.github.io/
+  - name: "Baldur Magnusson"
+    url: https://graphicsprinciples.github.io/
+date: "`r Sys.Date()`"
+categories:
+  - cheat sheet
+  - principles
+bibliography: paper.bib
+draft: FALSE
+preview: https://raw.githubusercontent.com/GraphicsPrinciples/GraphicsPrinciples.github.io/master/assets/2018-11-06_thumbnail.png
+output:
+  radix::radix_article:
+    self_contained: FALSE
+---
+
+
+The three laws outlined above provide overarching principled advice, and should serve as a guiding star towards effective visual communication for the quantitative scientist. To further ease their implementation in practice, it helps to distill even more detailed recommendations and to illustrate them concretely.
+
+To this end, we have introduced the Graphics Principles Cheat Sheet.25,50 This single-page reference sheet is an integral part of this tutorial. It was carefully designed as a concise and accessible resource for everyday practical use. Yet, it draws from a wide range of sources.7,9-12,15,16,18-20,24,26-28,41-47 We hope that it proves useful for putting the three laws into practice.
+We highlight major parts of the Cheat Sheet in Figures 4-6. 
+
+The full version is available on https://graphicsprinciples.github.io, along with corresponding programming code in R.51 Figure 4 exemplifies the conscious choice of the right base graph, an essential step towards any good data display. The same figure also illustrates the Cleveland‐McGill effectiveness ranking of graphical attributes (see Law 3 in Section 2). According to this ranking, numbers are most effectively encoded by position or length, less effectively by angle or area, and least effectively by color hue or volume. Figure 5 provides recommendations for facilitating comparisons and an effective use of color. Finally, Figure 6 shows some advice for displaying data more clearly and enhancing legibility and clarity of the narrative.
