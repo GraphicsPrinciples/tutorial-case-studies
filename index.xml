@@ -20,5 +20,17 @@
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
       <media:content url="https://raw.githubusercontent.com/GraphicsPrinciples/GraphicsPrinciples.github.io/master/assets/2018-11-06_thumbnail.png" medium="image" type="image/png"/>
     </item>
+    <item>
+      <title>Exploratory exposure-response analysis</title>
+      <dc:creator>Marc Vandemeulebroecke</dc:creator>
+      <dc:creator>Mark Baillie</dc:creator>
+      <dc:creator>Alison Margolskee</dc:creator>
+      <dc:creator>Baldur Magnusson</dc:creator>
+      <link>https://graphicsprinciples.github.io/posts/401-case1-eda</link>
+      <description>The importance of understanding the scientific context.</description>
+      <guid>https://graphicsprinciples.github.io/posts/401-case1-eda</guid>
+      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://graphicsprinciples.github.io/posts/401-case1-eda/401-case1-eda_files/figure-html5/unnamed-chunk-2-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
   </channel>
 </rss>
