@@ -26,7 +26,7 @@
       "introduction"
     ],
     "preview": "https://raw.githubusercontent.com/GraphicsPrinciples/GraphicsPrinciples.github.io/master/assets/2018-11-06_thumbnail.png",
-    "last_modified": "2019-08-06T14:38:57+02:00"
+    "last_modified": "2019-08-06T16:50:59+02:00"
   },
   {
     "path": "posts/201-three-laws-vizcom/",
@@ -59,36 +59,6 @@
     "last_modified": "2019-08-06T16:30:04+02:00",
     "preview_width": 1035,
     "preview_height": 418
-  },
-  {
-    "path": "posts/301-cheatsheet/",
-    "title": "Graphics Principles Cheat Sheet",
-    "description": "A concise and accessible resource for everyday practical use.",
-    "author": [
-      {
-        "name": "Marc Vandemeulebroecke",
-        "url": "https://graphicsprinciples.github.io/"
-      },
-      {
-        "name": "Mark Baillie",
-        "url": "https://graphicsprinciples.github.io/"
-      },
-      {
-        "name": "Alison Margolskee",
-        "url": "https://graphicsprinciples.github.io/"
-      },
-      {
-        "name": "Baldur Magnusson",
-        "url": "https://graphicsprinciples.github.io/"
-      }
-    ],
-    "date": "2019-08-06",
-    "categories": [
-      "cheat sheet",
-      "principles"
-    ],
-    "preview": "https://raw.githubusercontent.com/GraphicsPrinciples/GraphicsPrinciples.github.io/master/assets/2018-11-06_thumbnail.png",
-    "last_modified": "2019-08-06T16:39:10+02:00"
   },
   {
     "path": "posts/401-case1-eda/",
