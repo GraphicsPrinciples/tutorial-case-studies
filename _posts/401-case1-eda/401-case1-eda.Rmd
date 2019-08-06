@@ -15,8 +15,10 @@ date: "`r Sys.Date()`"
 categories:
   - case studies
   - example code
+  - EDA
+  - workflow
 bibliography: paper.bib
-draft: TRUE
+draft: FALSE
 output:
   radix::radix_article:
     self_contained: FALSE
@@ -42,7 +44,7 @@ lbr <- scales::trans_breaks("log10", function(x) 10 ^ x)
 llb <- scales::trans_format("log10", scales::math_format(10 ^ .x))
 ```
 
-This case study illustrates the importance of understanding the scientific context when exploring data graphically. An exploratory data analysis is more than just “plotting data”; it can lead to a deeper understanding and inform next steps [@Gabry2019; @Gelman2004]. However, like an analysis that is poorly thought through, a poorly implemented graph can also deceive.
+This example illustrates the importance of understanding the scientific context when exploring data graphically. An exploratory data analysis is more than just “plotting data”; it can lead to a deeper understanding and inform next steps [@Gabry2019; @Gelman2004]. However, like an analysis that is poorly thought through, a poorly implemented graph can also deceive.
 
 Consider an inhaled drug intended to improve lung function, with the target site of action in the lung. The drug is also absorbed systemically from the lung. Suppose that the team wants to fine-tune the choice of a recommended dose. A typical starting point for this question is often a plot of the response variable of interest against a summary measure of plasma concentration (e.g. the area under the concentration time curve, AUC). Figure 1 shows such a plot, generated using the default settings of the [R](https://www.r-project.org/) package [ggplot2](https://ggplot2.tidyverse.org/).
 
@@ -94,13 +96,13 @@ my_data %>%
   geom_point(alpha = 0.5) + 
   geom_smooth(method = "lm", se = FALSE) + 
   scale_colour_brewer(palette = "Set2" , name = "Dose (mg)") + 
-  scale_x_log10(breaks=lbr, labels=llb) + 
+  scale_x_log10(breaks = lbr, labels = llb) + 
   scale_y_continuous(breaks = seq(-800, 800, 200)) + 
   annotation_logticks(sides = "b") +
   labs(
     x = expression(paste("AUC0-24h (h*", mu, "g/mL)", sep = "")), 
     y = "FEV1 change from baseline (mL)", 
-    title = "Dose is a better predictor of response than exposure") + 
+    title = "Exposure is not a better predictor of response than dose") + 
   paper_theme() + 
   theme(
     legend.position = c("right"),

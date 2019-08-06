@@ -1,5 +1,5 @@
 ---
-title: "Tutorial case studies"
+title: "Example notebooks including tutorial case studies"
 site: radix::radix_website
 listing: posts
 ---
