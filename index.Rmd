@@ -1,5 +1,6 @@
 ---
-title: "Hands on case studies"
+title: "Tutorial case studies"
 site: radix::radix_website
 listing: posts
 ---
+

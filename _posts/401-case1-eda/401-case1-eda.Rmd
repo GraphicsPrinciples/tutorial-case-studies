@@ -16,7 +16,7 @@ categories:
   - case studies
   - example code
 bibliography: paper.bib
-draft: FALSE
+draft: TRUE
 output:
   radix::radix_article:
     self_contained: FALSE
