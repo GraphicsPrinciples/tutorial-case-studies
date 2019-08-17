@@ -268,3 +268,9 @@ Figure 10E shows this final slide. Guided by Laws 2 and 3, we arrived at this sl
 * Remove non-data ink. We reduce the number of ticks and points displayed on the x- and y-axes. They do not convey useful information for a short presentation, as we do not expect the audience to extract exact values. The connecting lines are pushed to the background by introducing a degree of transparency.
 
 * Effective redundancy. We add a caption that spells out what is seen at week 12 (the primary endpoint), and we highlight the corresponding treatment effect estimates by an enclosing circle (a powerful grouping technique to draw attention). Finally, we place the main message directly as the title of the slide (setting the most important word, “not”, in bold), and as subtitle we explicitly put our recommendation: “Genetic marker does not warrant further investigation.” 
+
+
+
+```{r}
+sessionInfo()
+```
