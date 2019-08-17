@@ -7,7 +7,19 @@
     <description>A tutorial on effective visual communication for the quantitative scientist.
 </description>
     <generator>Radix</generator>
-    <lastBuildDate>Tue, 06 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Exploratory exposure-response analysis</title>
+      <dc:creator>Marc Vandemeulebroecke</dc:creator>
+      <dc:creator>Mark Baillie</dc:creator>
+      <dc:creator>Alison Margolskee</dc:creator>
+      <dc:creator>Baldur Magnusson</dc:creator>
+      <link>https://graphicsprinciples.github.io/posts/401-case1-eda</link>
+      <description>The importance of understanding the scientific context.</description>
+      <guid>https://graphicsprinciples.github.io/posts/401-case1-eda</guid>
+      <pubDate>Fri, 16 Aug 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://graphicsprinciples.github.io/posts/401-case1-eda/401-case1-eda_files/figure-html5/unnamed-chunk-2-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
     <item>
       <title>Effective visual communication</title>
       <dc:creator>Marc Vandemeulebroecke</dc:creator>
@@ -31,18 +43,6 @@
       <guid>https://graphicsprinciples.github.io/posts/201-three-laws-vizcom</guid>
       <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
       <media:content url="https://graphicsprinciples.github.io/posts/201-three-laws-vizcom/Figure1b.png" medium="image" type="image/png" width="1035" height="418"/>
-    </item>
-    <item>
-      <title>Exploratory exposure-response analysis</title>
-      <dc:creator>Marc Vandemeulebroecke</dc:creator>
-      <dc:creator>Mark Baillie</dc:creator>
-      <dc:creator>Alison Margolskee</dc:creator>
-      <dc:creator>Baldur Magnusson</dc:creator>
-      <link>https://graphicsprinciples.github.io/posts/401-case1-eda</link>
-      <description>The importance of understanding the scientific context.</description>
-      <guid>https://graphicsprinciples.github.io/posts/401-case1-eda</guid>
-      <pubDate>Tue, 06 Aug 2019 00:00:00 +0000</pubDate>
-      <media:content url="https://graphicsprinciples.github.io/posts/401-case1-eda/401-case1-eda_files/figure-html5/unnamed-chunk-2-1.png" medium="image" type="image/png" width="1248" height="768"/>
     </item>
   </channel>
 </rss>
