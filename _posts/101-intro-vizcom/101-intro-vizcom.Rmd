@@ -42,5 +42,7 @@ To further ease implementation in practice, it helps to distill the three laws i
 
 The full version is [available](https://graphicsprinciples.github.io) along with corresponding [programming code in R](https://github.com/GraphicsPrinciples/CheatSheet). 
 
+The full published tutorial can is available and online at [CPT:PSP here](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.12455).
+
 A pre-print of the complete tutorial can also be found at: https://arxiv.org/abs/1903.09512
 
