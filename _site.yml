@@ -17,4 +17,7 @@ navbar:
       href: https://graphicsprinciples.github.io/initiative.html
     - icon: fab fa-github
       href: https://github.com/GraphicsPrinciples
+collections:
+  posts:
+    share: [twitter, linkedin]
 output: radix::radix_article
