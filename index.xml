@@ -21,6 +21,18 @@
       <media:content url="https://graphicsprinciples.github.io/posts/401-case1-eda/401-case1-eda_files/figure-html5/unnamed-chunk-2-1.png" medium="image" type="image/png" width="1248" height="768"/>
     </item>
     <item>
+      <title>Pharmacokinetic exposure by ethnicity</title>
+      <dc:creator>Marc Vandemeulebroecke</dc:creator>
+      <dc:creator>Mark Baillie</dc:creator>
+      <dc:creator>Alison Margolskee</dc:creator>
+      <dc:creator>Baldur Magnusson</dc:creator>
+      <link>https://graphicsprinciples.github.io/posts/402-case2-pk</link>
+      <description>Clarifying the purpose.</description>
+      <guid>https://graphicsprinciples.github.io/posts/402-case2-pk</guid>
+      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <media:content url="https://graphicsprinciples.github.io/posts/402-case2-pk/402-case2-pk_files/figure-html5/unnamed-chunk-2-1.png" medium="image" type="image/png" width="1248" height="768"/>
+    </item>
+    <item>
       <title>Why a waterfall plot?</title>
       <dc:creator>Marc Vandemeulebroecke</dc:creator>
       <dc:creator>Mark Baillie</dc:creator>
