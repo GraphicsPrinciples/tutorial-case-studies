@@ -3,9 +3,20 @@ title: "Pharmacokinetic exposure by ethnicity"
 description: |
   The importance of understanding the scientific context.
 author:
-  - name: Marc Vandemeulebroecke, Mark Baillie, Alison Margolskee and Baldur Magnusson  
+  - name: "Marc Vandemeulebroecke"  
+    url: https://graphicsprinciples.github.io/
+  - name: "Mark Baillie"
+    url: https://graphicsprinciples.github.io/
+  - name: "Alison Margolskee"
+    url: https://graphicsprinciples.github.io/
+  - name: "Baldur Magnusson"
     url: https://graphicsprinciples.github.io/
 date: "`r Sys.Date()`"
+categories:
+  - case studies
+  - example code
+  - PK/PD
+  - subgroups
 draft: true
 output:
   radix::radix_article:
@@ -42,13 +53,15 @@ After reading in and performing a number of small number of data transformations
 
 ```{r, include = TRUE}
 ## Read in data and define order for factors
+
 my_data <- read_csv("../../data/402_case2_PKdataset.csv") %>%
   filter(CMT == 2 & DOSE == 300 & PART == 1 & STUDY == 1) %>%
   mutate(
     TRTACT = factor(TRTACT, levels = rev(unique(TRTACT[order(DOSE)]))),
     ETHN = factor(ETHN),
     ETHN = factor(ETHN, levels = rev(levels(ETHN)))
-  ) 
+  )
+
 ```
 
 ```{r, fig.cap="Pharmacokinetic exposure by ethnicity."}
@@ -105,12 +118,9 @@ my_data %>%
 ```
 
 
-
-
 These issues have been fixed in Figure 8B (we only show the log-linear version). To reduce cluttering, the ticks at the end of the whiskers have also been omitted (non-data ink). If the graph displayed more than two profiles, we might consider replacing the whiskers by (shaded) confidence bands, or separating the graph out in panels or “small multiples” (see bottom of the backside of the Cheat Sheet on https://graphicsprinciples.github.io). From Figure 8B it appears that the higher concentrations are not meaningfully different, but the elimination phase does differ between the two ethnicities. This could also translate to different average exposures. That is, based on two simple changes in the plot, we now see answers emerging for our initial question about PK differences. We see them emerging with respect to three key PK characteristics: peak, elimination/trough, and overall exposure. While (depending on the drug) similarity in the peak may be reassuring from a safety point of view, a lower overall exposure in Japanese subjects could be a concern for efficacy.
 
 Moving on to Law 3, let us now make the message obvious. We could choose a completely different graph type to hone in on the message. Figure 8C shows the three (non-compartmentally derived) quantities Cmax, Ctrough and AUClast with 95% confidence intervals by ethnicity. Clearly, Ctrough and AUC are different between the two ethnicities, but Cmax is not. We could derive these quantities from a compartmental model fit and produce the same plot. Or we could go one step further and show directly their geometric mean ratio, Japanese vs. Caucasian subjects, as in Figure 8D. This last plot answers the initial question most succinctly, and its graphical appearance has also been further simplified (no frame, minimal gridlines, mildly highlighted line of equality), to not distract from the message. In practice, Figures 8B, 8C and/or 8D together may be most informative, covering the time course as well as differences in key parameters.
-
 
 
 ```{r, fig.cap="Key messages are made more obvious by directly plotting the pharmacokinetic parameters of interest."}
