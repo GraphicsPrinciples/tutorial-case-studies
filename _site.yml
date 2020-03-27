@@ -1,7 +1,7 @@
 name: "Graphics principles"
 title: "Case studies"
 description: |
-  A tutorial on effective visual communication for the quantitative scientist.
+  Case studies supporting a tutorial on effective visual communication for the quantitative scientist.
 output_dir: "."
 base_url: https://graphicsprinciples.github.io/
 canonical_url: https://graphicsprinciples.github.io/case-studies
@@ -9,17 +9,29 @@ navbar:
   right:
     - text: "Home"
       href: https://graphicsprinciples.github.io/
+    - text: "Three laws"
+      href: https://graphicsprinciples.github.io/threelaws.html
     - text: "Tutorial"
       href: https://graphicsprinciples.github.io/tutorial.html
+    - text: "Cheat sheet"
+      href: https://graphicsprinciples.github.io/cheatsheet.html
     - text: "Case studies"
       href: https://graphicsprinciples.github.io/tutorial-case-studies
-    - text: "Gallery"
+    - text: "QBV"
+      href: https://graphicsprinciples.github.io/qbv.html
+    - text: "Blog"
       href: https://graphicsprinciples.github.io/gallery/
-    - text: "About"
+    - text: "Initiative"
       href: https://graphicsprinciples.github.io/initiative.html
+    - text: "Resources & references"
+      href: https://graphicsprinciples.github.io/resources.html
     - icon: fab fa-github
       href: https://github.com/GraphicsPrinciples
 collections:
   posts:
     share: [twitter, linkedin]
 output: radix::radix_article
+
+
+
+
