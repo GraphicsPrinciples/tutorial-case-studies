@@ -2,30 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
     <loc>https://graphicsprinciples.github.io/</loc>
-    <lastmod>2019-08-16T14:40:08+02:00</lastmod>
+    <lastmod>2020-03-27T10:02:01+01:00</lastmod>
   </url>
   <url>
     <loc>https://graphicsprinciples.github.io/README.html</loc>
-    <lastmod>2019-08-16T14:40:07+02:00</lastmod>
+    <lastmod>2020-03-27T10:02:01+01:00</lastmod>
   </url>
   <url>
     <loc>https://graphicsprinciples.github.io/posts/401-case1-eda/</loc>
-    <lastmod>2019-10-02T20:47:41+02:00</lastmod>
+    <lastmod>2020-03-27T10:02:01+01:00</lastmod>
   </url>
   <url>
     <loc>https://graphicsprinciples.github.io/posts/402-case2-pk/</loc>
-    <lastmod>2019-10-02T22:00:39+02:00</lastmod>
+    <lastmod>2020-03-27T10:02:01+01:00</lastmod>
   </url>
   <url>
     <loc>https://graphicsprinciples.github.io/posts/403-case3-waterfall/</loc>
-    <lastmod>2019-10-02T21:33:33+02:00</lastmod>
-  </url>
-  <url>
-    <loc>https://graphicsprinciples.github.io/posts/101-intro-vizcom/</loc>
-    <lastmod>2019-09-30T20:55:40+02:00</lastmod>
-  </url>
-  <url>
-    <loc>https://graphicsprinciples.github.io/posts/201-three-laws-vizcom/</loc>
-    <lastmod>2019-08-16T14:40:07+02:00</lastmod>
+    <lastmod>2020-03-27T10:02:01+01:00</lastmod>
   </url>
 </urlset>
