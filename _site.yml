@@ -11,10 +11,10 @@ navbar:
       href: https://graphicsprinciples.github.io/
     - text: "Three laws"
       href: https://graphicsprinciples.github.io/threelaws.html
-    - text: "Tutorial"
-      href: https://graphicsprinciples.github.io/tutorial.html
     - text: "Cheat sheet"
       href: https://graphicsprinciples.github.io/cheatsheet.html
+    - text: "Tutorial"
+      href: https://graphicsprinciples.github.io/tutorial.html
     - text: "Case studies"
       href: https://graphicsprinciples.github.io/tutorial-case-studies
     - text: "QBV"
