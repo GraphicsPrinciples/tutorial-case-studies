@@ -6,8 +6,8 @@
     <atom:link href="https://graphicsprinciples.github.io/index.xml" rel="self" type="application/rss+xml"/>
     <description>Case studies supporting a tutorial on effective visual communication for the quantitative scientist.
 </description>
-    <generator>Radix</generator>
-    <lastBuildDate>Wed, 02 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Distill</generator>
+    <lastBuildDate>Sat, 12 Dec 2020 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Exploratory exposure-response analysis</title>
       <dc:creator>Marc Vandemeulebroecke</dc:creator>
@@ -16,8 +16,12 @@
       <dc:creator>Baldur Magnusson</dc:creator>
       <link>https://graphicsprinciples.github.io/posts/401-case1-eda</link>
       <description>The importance of understanding the scientific context.</description>
+      <category>case studies</category>
+      <category>example code</category>
+      <category>EDA</category>
+      <category>workflow</category>
       <guid>https://graphicsprinciples.github.io/posts/401-case1-eda</guid>
-      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       <media:content url="https://graphicsprinciples.github.io/posts/401-case1-eda/401-case1-eda_files/figure-html5/unnamed-chunk-2-1.png" medium="image" type="image/png" width="1248" height="768"/>
     </item>
     <item>
@@ -28,8 +32,12 @@
       <dc:creator>Baldur Magnusson</dc:creator>
       <link>https://graphicsprinciples.github.io/posts/402-case2-pk</link>
       <description>Clarifying the purpose.</description>
+      <category>case studies</category>
+      <category>example code</category>
+      <category>PK/PD</category>
+      <category>subgroups</category>
       <guid>https://graphicsprinciples.github.io/posts/402-case2-pk</guid>
-      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       <media:content url="https://graphicsprinciples.github.io/posts/402-case2-pk/402-case2-pk_files/figure-html5/unnamed-chunk-2-1.png" medium="image" type="image/png" width="1248" height="768"/>
     </item>
     <item>
@@ -40,8 +48,12 @@
       <dc:creator>Baldur Magnusson</dc:creator>
       <link>https://graphicsprinciples.github.io/posts/403-case3-waterfall</link>
       <description>Questioning the defaults.</description>
+      <category>case studies</category>
+      <category>example code</category>
+      <category>waterfall plot</category>
+      <category>defaults</category>
       <guid>https://graphicsprinciples.github.io/posts/403-case3-waterfall</guid>
-      <pubDate>Wed, 02 Oct 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 12 Dec 2020 00:00:00 +0000</pubDate>
       <media:content url="https://graphicsprinciples.github.io/posts/403-case3-waterfall/403-case3-waterfall_files/figure-html5/unnamed-chunk-1-1.png" medium="image" type="image/png" width="1248" height="768"/>
     </item>
   </channel>

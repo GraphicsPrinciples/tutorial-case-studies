@@ -19,7 +19,7 @@ categories:
   - defaults
 draft: FALSE
 output:
-  radix::radix_article:
+  distill::distill_article:
     self_contained: FALSE
 ---
 
@@ -34,7 +34,6 @@ knitr::opts_chunk$set(
 
 ## Specify libraries and ggplot theme
 library(tidyverse)
-library(RxODE)
 library(caTools)
 library(rstanarm)
 library(gridExtra)

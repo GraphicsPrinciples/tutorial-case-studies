@@ -18,7 +18,7 @@ categories:
   - principles
 draft: TRUE
 output:
-  radix::radix_article:
+  radix::distill_article:
     self_contained: FALSE
     toc: TRUE
 ---
