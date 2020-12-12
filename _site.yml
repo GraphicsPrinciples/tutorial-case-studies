@@ -30,7 +30,7 @@ navbar:
 collections:
   posts:
     share: [twitter, linkedin]
-output: radix::radix_article
+output: distill::distill_article
 
 
 

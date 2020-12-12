@@ -19,7 +19,7 @@ categories:
   - subgroups
 draft: false
 output:
-  radix::radix_article:
+  distill::distill_article:
     self_contained: false
 ---
 
@@ -33,7 +33,7 @@ knitr::opts_chunk$set(
 )
 
 ## Specify libraries and ggplot theme
-library(radix)
+library(distill)
 library(tidyverse)
 library(RColorBrewer)
 library(caTools)

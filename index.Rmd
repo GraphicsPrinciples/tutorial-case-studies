@@ -1,6 +1,6 @@
 ---
 title: "Example notebooks including tutorial case studies"
-site: radix::radix_website
+site: distill::distill_website
 listing: posts
 ---
 
