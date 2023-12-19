@@ -15,6 +15,7 @@ bibliography: refs.bib
 categories:
   - three laws
   - principles
+image: "../../assets/logo.png"
 draft: false
 ---
 
@@ -40,11 +41,16 @@ This is Tufte’s maxim [@Tufte1986]: “Above all else, show the data”. Show 
 
 * Display the relevant data directly. In a quantitative workflow, this often means to look at the raw data and not just rely on summary statistics. Cabanski8 illustrates this with nine datasets that show completely different patterns despite identical marginal means, standard deviations and correlation coefficients (see also Anscombe [@Anscombe1973] and Matejka and Fitzmaurice [@Matejka2017]). Ask yourself what is the best way of summarizing the relevant features of the data; it may not be the mean +/- standard error. When fitting a (statistical, compartmental, mechanistic etc.) model to the data to draw inference or make predictions, model-derived quantities may be the relevant data to display. In this case a plot of the raw data may be misleading if it does not account for important covariates. In a final communication, display concisely what best supports your message (see also below, Law 3).
 
-```{r, fig.cap="Law 2, show the data clearly. The pie and donut charts in panels A and B make it difficult to see the order of magnitude of some of the segments. The eye needs to compare areas, bent lengths (of the contour) or angles, graphical attributes that are not easily decoded. The donut chart even omits the angles. The mosaic plot in panel C only relies on areas; again it is hard to tell the order of magnitude. It is better to use lengths with a common baseline or positions on a common scale, such as in a barchart or dotplot (see Cleveland-McGill effectiveness ranking in Law 3). The barchart in panel D however introduces a fake dimension, which is unnecessary and makes it hard to decode the numerical values from the height of the bars. Panels E and F are appropriately simple and show the data clearly. They also order the data by magnitude to aid comparison even further. The dotplot in panel F uses minimal amount of ink and draws the eye to the position of the dots; it is the most effective way of displaying this data."}
+
+
+```{r, echo=FALSE}
+#| label: Figure 1
+#| fig-cap: "Figure 1 illustrates some aspects of this second law. Wainer [@Wainer1984] has turned this law around, noting that “methods for displaying data badly have been developed for many years, and a wide variety of interesting and inventive schemes have emerged”. He provides 12 highly amusing rules for “how to display data badly”, with striking examples. He then concludes more seriously: “The rules for good display are quite simple. Examine the data carefully enough to know what they have to say, and then let them say it with a minimum of adornment. Do this while following reasonable regularity practices in the depiction of scale, and label clearly and fully."
+
 knitr::include_graphics("Figure1b.png")
+
 ```
 
-Figure 1 illustrates some aspects of this second law. Wainer [@Wainer1984] has turned this law around, noting that “methods for displaying data badly have been developed for many years, and a wide variety of interesting and inventive schemes have emerged”. He provides 12 highly amusing rules for “how to display data badly”, with striking examples. He then concludes more seriously: “The rules for good display are quite simple. Examine the data carefully enough to know what they have to say, and then let them say it with a minimum of adornment. Do this while following reasonable regularity practices in the depiction of scale, and label clearly and fully.”
 
 ## Law 3: Make the message obvious
 
