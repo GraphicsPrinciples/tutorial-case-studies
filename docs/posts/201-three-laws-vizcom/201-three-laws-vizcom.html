@@ -26,40 +26,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -265,17 +231,15 @@ div.csl-indent {
 <li><p>Display the relevant data directly. In a quantitative workflow, this often means to look at the raw data and not just rely on summary statistics. Cabanski8 illustrates this with nine datasets that show completely different patterns despite identical marginal means, standard deviations and correlation coefficients (see also Anscombe <span class="citation" data-cites="Anscombe1973">(<a href="#ref-Anscombe1973" role="doc-biblioref">Anscombe 1973</a>)</span> and Matejka and Fitzmaurice <span class="citation" data-cites="Matejka2017">(<a href="#ref-Matejka2017" role="doc-biblioref">Matejka and Fitzmaurice 2017</a>)</span>). Ask yourself what is the best way of summarizing the relevant features of the data; it may not be the mean +/- standard error. When fitting a (statistical, compartmental, mechanistic etc.) model to the data to draw inference or make predictions, model-derived quantities may be the relevant data to display. In this case a plot of the raw data may be misleading if it does not account for important covariates. In a final communication, display concisely what best supports your message (see also below, Law 3).</p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"Figure1b.png"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="Figure1b.png" class="img-fluid figure-img" width="518"></p>
-<figcaption class="figure-caption">Law 2, show the data clearly. The pie and donut charts in panels A and B make it difficult to see the order of magnitude of some of the segments. The eye needs to compare areas, bent lengths (of the contour) or angles, graphical attributes that are not easily decoded. The donut chart even omits the angles. The mosaic plot in panel C only relies on areas; again it is hard to tell the order of magnitude. It is better to use lengths with a common baseline or positions on a common scale, such as in a barchart or dotplot (see Cleveland-McGill effectiveness ranking in Law 3). The barchart in panel D however introduces a fake dimension, which is unnecessary and makes it hard to decode the numerical values from the height of the bars. Panels E and F are appropriately simple and show the data clearly. They also order the data by magnitude to aid comparison even further. The dotplot in panel F uses minimal amount of ink and draws the eye to the position of the dots; it is the most effective way of displaying this data.</figcaption>
+<figcaption class="figure-caption">Figure 1 illustrates some aspects of this second law. Wainer <span class="citation" data-cites="Wainer1984">(<a href="#ref-Wainer1984" role="doc-biblioref">Wainer 1984</a>)</span> has turned this law around, noting that “methods for displaying data badly have been developed for many years, and a wide variety of interesting and inventive schemes have emerged”. He provides 12 highly amusing rules for “how to display data badly”, with striking examples. He then concludes more seriously: “The rules for good display are quite simple. Examine the data carefully enough to know what they have to say, and then let them say it with a minimum of adornment. Do this while following reasonable regularity practices in the depiction of scale, and label clearly and fully.</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>Figure 1 illustrates some aspects of this second law. Wainer <span class="citation" data-cites="Wainer1984">(<a href="#ref-Wainer1984" role="doc-biblioref">Wainer 1984</a>)</span> has turned this law around, noting that “methods for displaying data badly have been developed for many years, and a wide variety of interesting and inventive schemes have emerged”. He provides 12 highly amusing rules for “how to display data badly”, with striking examples. He then concludes more seriously: “The rules for good display are quite simple. Examine the data carefully enough to know what they have to say, and then let them say it with a minimum of adornment. Do this while following reasonable regularity practices in the depiction of scale, and label clearly and fully.”</p>
 </section>
 <section id="law-3-make-the-message-obvious" class="level2">
 <h2 class="anchored" data-anchor-id="law-3-make-the-message-obvious">Law 3: Make the message obvious</h2>

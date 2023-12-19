@@ -22,21 +22,33 @@
 
 
 
+<section id="what-is-evc" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-evc">What is EVC?</h2>
 <p>Effective visual communication is a core competency for pharmacometricians, statisticians, and more generally any quantitative scientist. It is essential in every step of a quantitative workflow, from scoping to execution and communicating results and conclusions. With this competency, we can better understand data and influence decisions towards appropriate actions. Without it, we can fool ourselves and others and pave the way to wrong conclusions and actions. The goal of this tutorial is to convey this competency.</p>
+</section>
+<section id="the-three-laws" class="level2">
+<h2 class="anchored" data-anchor-id="the-three-laws">The three laws</h2>
 <p>We posit three laws of effective visual communication for the quantitative scientist:</p>
 <ul>
 <li>have a clear purpose,</li>
 <li>show the data clearly,</li>
 <li>and make the message obvious.</li>
 </ul>
+</section>
+<section id="cheat-sheet-and-hands-on-tutorial" class="level2">
+<h2 class="anchored" data-anchor-id="cheat-sheet-and-hands-on-tutorial">Cheat sheet and hands-on tutorial</h2>
 <p>We defined the <a href="https://graphicsprinciples.github.io/tutorial-case-studies/posts/201-three-laws-vizcom/">three laws of effective visual communication</a> to provide overarching principled advice that can serve as a guiding star towards effective visual communication for the quantitative scientist. A concise <a href="https://github.com/GraphicsPrinciples/CheatSheet/blob/master/NVSCheatSheet.pdf">Cheat Sheet</a>, distills more granular recommendations for everyday practical use. Finally, these laws and recommendations are illustrated in four case studies. The aim of this site is to provide both the code, data and examples as stand alone posts. We hope that it proves useful for putting the three laws into practice.</p>
 <p>To further ease implementation in practice, it helps to distill the three laws in to even more detailed recommendations and illustrate them concretely. This is why we introduced a <a href="https://github.com/GraphicsPrinciples/CheatSheet/blob/master/NVSCheatSheet.pdf">cheat Sheet</a>. This single-page reference sheet is an integral part of this tutorial, carefully designed as a concise and accessible resource for everyday practical use. Yet, it draws from a wide range of sources including <span class="citation" data-cites="Bonate2014 Doumont2002 Cairo:2016 Few:2012 Ware:2004 Wong2010PointsOV doumont2009trees Heer:2010 Tufte1986 Gelman2013 Wong2010 wong2010wall Tufte1997 Wainer1984 munzner2015visualization Cleveland1985 Cleveland.McGill1985 Cleveland1987 Wilkinson:2005 tukey77 Duke2015 Robbins2012">(Bonate 2014; Jean L. Doumont 2002; Cairo 2016; Few 2012; Ware 2004; B. Wong 2010, 2011; J. L. Doumont 2009; Heer and Bostock 2010; Tufte 1986, 1997; Gelman and Unwin 2013; D. M. Wong 2010; Wainer 1984; Munzner 2015; Cleveland 1985; Cleveland and McGill 1985, 1987; Wilkinson 2005; Tukey 1977; Duke et al. 2015; Robbins 2012)</span>.</p>
+</section>
+<section id="were-to-find-out-more" class="level2">
+<h2 class="anchored" data-anchor-id="were-to-find-out-more">Were to find out more</h2>
 <p>The full version is <a href="https://graphicsprinciples.github.io">available</a> along with corresponding <a href="https://github.com/GraphicsPrinciples/CheatSheet">programming code in R</a>.</p>
 <p>The full published tutorial can is available and online at <a href="https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.12455">CPT:PSP here</a>.</p>
 <p>A pre-print of the complete tutorial can also be found at: https://arxiv.org/abs/1903.09512</p>
 
 
 
+</section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
 <div id="ref-Bonate2014" class="csl-entry">
@@ -107,8 +119,10 @@ Wong, D. M. 2010. <em>The Wall Street Journal Guide to Information Graphics: The
 </div>
 </div></section></div> ]]></description>
   <category>introduction</category>
+  <category>EVC</category>
   <guid>https://graphicsprinciples.github.io/posts/101-intro-vizcom/101-intro-vizcom.html</guid>
   <pubDate>Mon, 18 Dec 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://graphicsprinciples.github.io/assets/EVC.png" medium="image" type="image/png" height="136" width="144"/>
 </item>
 <item>
   <title>Three laws of visual communication</title>
@@ -138,23 +152,15 @@ Wong, D. M. 2010. <em>The Wall Street Journal Guide to Information Graphics: The
 <li><p>Display the relevant data directly. In a quantitative workflow, this often means to look at the raw data and not just rely on summary statistics. Cabanski8 illustrates this with nine datasets that show completely different patterns despite identical marginal means, standard deviations and correlation coefficients (see also Anscombe <span class="citation" data-cites="Anscombe1973">(Anscombe 1973)</span> and Matejka and Fitzmaurice <span class="citation" data-cites="Matejka2017">(Matejka and Fitzmaurice 2017)</span>). Ask yourself what is the best way of summarizing the relevant features of the data; it may not be the mean +/- standard error. When fitting a (statistical, compartmental, mechanistic etc.) model to the data to draw inference or make predictions, model-derived quantities may be the relevant data to display. In this case a plot of the raw data may be misleading if it does not account for important covariates. In a final communication, display concisely what best supports your message (see also below, Law 3).</p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1">knitr<span class="sc" style="color: #5E5E5E;
-background-color: null;
-font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">include_graphics</span>(<span class="st" style="color: #20794D;
-background-color: null;
-font-style: inherit;">"Figure1b.png"</span>)</span></code></pre></div>
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="https://graphicsprinciples.github.io/posts/201-three-laws-vizcom/Figure1b.png" class="img-fluid figure-img" width="518"></p>
-<figcaption class="figure-caption">Law 2, show the data clearly. The pie and donut charts in panels A and B make it difficult to see the order of magnitude of some of the segments. The eye needs to compare areas, bent lengths (of the contour) or angles, graphical attributes that are not easily decoded. The donut chart even omits the angles. The mosaic plot in panel C only relies on areas; again it is hard to tell the order of magnitude. It is better to use lengths with a common baseline or positions on a common scale, such as in a barchart or dotplot (see Cleveland-McGill effectiveness ranking in Law 3). The barchart in panel D however introduces a fake dimension, which is unnecessary and makes it hard to decode the numerical values from the height of the bars. Panels E and F are appropriately simple and show the data clearly. They also order the data by magnitude to aid comparison even further. The dotplot in panel F uses minimal amount of ink and draws the eye to the position of the dots; it is the most effective way of displaying this data.</figcaption>
+<figcaption class="figure-caption">Figure 1 illustrates some aspects of this second law. Wainer <span class="citation" data-cites="Wainer1984">(Wainer 1984)</span> has turned this law around, noting that “methods for displaying data badly have been developed for many years, and a wide variety of interesting and inventive schemes have emerged”. He provides 12 highly amusing rules for “how to display data badly”, with striking examples. He then concludes more seriously: “The rules for good display are quite simple. Examine the data carefully enough to know what they have to say, and then let them say it with a minimum of adornment. Do this while following reasonable regularity practices in the depiction of scale, and label clearly and fully.</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>Figure 1 illustrates some aspects of this second law. Wainer <span class="citation" data-cites="Wainer1984">(Wainer 1984)</span> has turned this law around, noting that “methods for displaying data badly have been developed for many years, and a wide variety of interesting and inventive schemes have emerged”. He provides 12 highly amusing rules for “how to display data badly”, with striking examples. He then concludes more seriously: “The rules for good display are quite simple. Examine the data carefully enough to know what they have to say, and then let them say it with a minimum of adornment. Do this while following reasonable regularity practices in the depiction of scale, and label clearly and fully.”</p>
 </section>
 <section id="law-3-make-the-message-obvious" class="level2">
 <h2 class="anchored" data-anchor-id="law-3-make-the-message-obvious">Law 3: Make the message obvious</h2>
@@ -263,6 +269,7 @@ Wong, D. M. 2010. <em>The Wall Street Journal Guide to Information Graphics: The
   <category>principles</category>
   <guid>https://graphicsprinciples.github.io/posts/201-three-laws-vizcom/201-three-laws-vizcom.html</guid>
   <pubDate>Mon, 18 Dec 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://graphicsprinciples.github.io/assets/logo.png" medium="image" type="image/png" height="107" width="144"/>
 </item>
 <item>
   <title>Graphics Principles Cheat Sheet</title>
@@ -275,17 +282,27 @@ Wong, D. M. 2010. <em>The Wall Street Journal Guide to Information Graphics: The
 
 
 
+<section id="cheat-sheet" class="level2">
+<h2 class="anchored" data-anchor-id="cheat-sheet">Cheat sheet</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://graphicsprinciples.github.io/assets/2018-11-06_thumbnail.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Cheat sheet</figcaption>
+</figure>
+</div>
 <p>The three laws outlined <a href="https://graphicsprinciples.github.io/tutorial-case-studies/posts/201-three-laws-vizcom/">here</a> provide overarching principled advice, and should serve as a guiding star towards effective visual communication for the quantitative scientist. To further ease their implementation in practice, it helps to distill even more detailed recommendations and to illustrate them concretely.</p>
 <p>To this end, we have introduced the Graphics Principles <a href="https://github.com/GraphicsPrinciples/CheatSheet/blob/master/NVSCheatSheet.pdf">Cheat Sheet</a>.This single-page reference sheet is an integral part of this <a href="https://graphicsprinciples.github.io/tutorial.html">tutorial</a>. It was carefully designed as a concise and accessible resource for everyday practical use. Yet, it draws from a wide range of sources. We hope that it proves useful for putting the three laws into practice.</p>
 <p>The full version is <a href="https://graphicsprinciples.github.io">available</a> along with corresponding <a href="https://github.com/GraphicsPrinciples/CheatSheet">programming code in R</a>.</p>
 
 
+</section>
 
  ]]></description>
   <category>cheat sheet</category>
   <category>principles</category>
   <guid>https://graphicsprinciples.github.io/posts/301-cheatsheet/301-cheatsheet.html</guid>
   <pubDate>Mon, 18 Dec 2023 23:00:00 GMT</pubDate>
+  <media:content url="https://graphicsprinciples.github.io/assets/2018-11-06_thumbnail.png" medium="image" type="image/png" height="56" width="144"/>
 </item>
 <item>
   <title>Exploratory exposure-response analysis</title>
