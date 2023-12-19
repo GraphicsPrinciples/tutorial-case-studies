@@ -1,6 +1,0 @@
----
-title: "Example notebooks including tutorial case studies"
-site: distill::distill_website
-listing: posts
----
-

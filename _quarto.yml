@@ -1,0 +1,57 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "case studies"
+  description: "Case studies supporting a tutorial on effective visual communication for the quantitative scientist."
+  site-url: https://graphicsprinciples.github.io
+  repo-url: https://github.com/GraphicsPrinciples/tutorial-case-studies
+  repo-actions: [edit, issue]
+
+  page-footer:
+    left: "This page is built with [Quarto](https://quarto.org/)."
+  #  background: "#1d467f" #"#0f366c" #"#00A38E" #"#D1F0EE"  #"#A7D5E8"
+    
+  navbar:
+    title: "graphics principles"
+   # background: "#1d467f"
+    #logo: "assets/logo.png"
+    align: center #left
+    #title: false
+    #collapse-below: lg
+
+    left: 
+      - text: "home"
+        href: https://graphicsprinciples.github.io/
+      - text: "three laws"
+        href: https://graphicsprinciples.github.io/threelaws.html
+      - text: "cheat sheet"
+        href: https://graphicsprinciples.github.io/cheatsheet.html
+      - text: "tutorial"
+        href: https://graphicsprinciples.github.io/tutorial.html
+      - text: "case studies"
+        href: index.qmd
+      - text: "QBV"
+        href: https://graphicsprinciples.github.io/qbv.html
+      - text: "blog"
+        href: https://graphicsprinciples.github.io/gallery/
+        
+    right:
+      - text: "resources & references"
+        href: https://graphicsprinciples.github.io/resources.html
+      - text: "about"
+        href: https://graphicsprinciples.github.io/initiative.html
+      - icon: github
+        href: https://github.com/GraphicsPrinciples
+
+format:
+  html:
+    theme: cosmo #yeti #cosmo #zephyr #yeti #cosmo #solar 
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+
+execute:
+  freeze: false

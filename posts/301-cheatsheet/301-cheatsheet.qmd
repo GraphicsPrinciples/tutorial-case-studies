@@ -1,0 +1,27 @@
+---
+title: "Graphics Principles Cheat Sheet"
+description: "A concise and accessible resource for everyday practical use."
+author:
+  - name: "Marc Vandemeulebroecke"  
+    url: https://graphicsprinciples.github.io/
+  - name: "Mark Baillie"
+    url: https://graphicsprinciples.github.io/
+  - name: "Alison Margolskee"
+    url: https://graphicsprinciples.github.io/
+  - name: "Baldur Magnusson"
+    url: https://graphicsprinciples.github.io/
+date: today
+categories:
+  - cheat sheet
+  - principles
+bibliography: paper.bib
+draft: false
+preview: https://raw.githubusercontent.com/GraphicsPrinciples/GraphicsPrinciples.github.io/master/assets/2018-11-06_thumbnail.png
+---
+
+
+The three laws outlined [here](https://graphicsprinciples.github.io/tutorial-case-studies/posts/201-three-laws-vizcom/) provide overarching principled advice, and should serve as a guiding star towards effective visual communication for the quantitative scientist. To further ease their implementation in practice, it helps to distill even more detailed recommendations and to illustrate them concretely.
+
+To this end, we have introduced the Graphics Principles [Cheat Sheet](https://github.com/GraphicsPrinciples/CheatSheet/blob/master/NVSCheatSheet.pdf).This single-page reference sheet is an integral part of this [tutorial](https://graphicsprinciples.github.io/tutorial.html). It was carefully designed as a concise and accessible resource for everyday practical use. Yet, it draws from a wide range of sources. We hope that it proves useful for putting the three laws into practice.
+
+The full version is [available](https://graphicsprinciples.github.io) along with corresponding [programming code in R](https://github.com/GraphicsPrinciples/CheatSheet). 
