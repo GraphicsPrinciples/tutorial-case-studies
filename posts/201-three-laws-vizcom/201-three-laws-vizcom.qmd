@@ -16,7 +16,7 @@ categories:
   - three laws
   - principles
 image: "../../assets/logo.png"
-draft: false
+draft: true
 ---
 
 ## Law 1: Have a clear purpose
