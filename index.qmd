@@ -1,9 +1,16 @@
 ---
 title: "Case studies"
+description: "Example notebooks including tutorial case studies"
 listing:
-  contents: posts
+  contents: posts/**/*.qmd
   sort: "date desc"
   type: default
   categories: true
+  sort-ui: true
+  filter-ui: true
+  fields: [date, title, reading-time, description, categories]
+  feed: true
+page-layout: full
+title-block-banner: true
 ---
 

@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Example notebooks including tutorial case studies">
 
 <title>case studies - Case studies</title>
 <style>
@@ -71,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
@@ -94,7 +95,7 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-</head>
+<link rel="alternate" type="application/rss+xml" title="case studies" href="index.xml"></head>
 
 <body class="nav-fixed">
 
@@ -164,145 +165,100 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Case studies</h1>
+                  <div>
+        <div class="description">
+          Example notebooks including tutorial case studies
+        </div>
+      </div>
+                </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="EDA">EDA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PK/PD">PK/PD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="case studies">case studies <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cheat sheet">cheat sheet <span class="quarto-category-count">(1)</span></div><div class="category" data-category="defaults">defaults <span class="quarto-category-count">(1)</span></div><div class="category" data-category="example code">example code <span class="quarto-category-count">(3)</span></div><div class="category" data-category="introduction">introduction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="principles">principles <span class="quarto-category-count">(2)</span></div><div class="category" data-category="subgroups">subgroups <span class="quarto-category-count">(1)</span></div><div class="category" data-category="three laws">three laws <span class="quarto-category-count">(1)</span></div><div class="category" data-category="waterfall plot">waterfall plot <span class="quarto-category-count">(1)</span></div><div class="category" data-category="workflow">workflow <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="EDA">EDA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="PK/PD">PK/PD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="case studies">case studies <span class="quarto-category-count">(3)</span></div><div class="category" data-category="cheat sheet">cheat sheet <span class="quarto-category-count">(1)</span></div><div class="category" data-category="defaults">defaults <span class="quarto-category-count">(1)</span></div><div class="category" data-category="example code">example code <span class="quarto-category-count">(3)</span></div><div class="category" data-category="introduction">introduction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="principles">principles <span class="quarto-category-count">(2)</span></div><div class="category" data-category="subgroups">subgroups <span class="quarto-category-count">(1)</span></div><div class="category" data-category="three laws">three laws <span class="quarto-category-count">(1)</span></div><div class="category" data-category="waterfall plot">waterfall plot <span class="quarto-category-count">(1)</span></div><div class="category" data-category="workflow">workflow <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Case studies</h1>
-</div>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
 
 
 
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1703003012966" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
+<div class="quarto-post image-right" data-index="0" data-categories="introduction" data-listing-date-sort="1702940400000" data-listing-file-modified-sort="1703003408296" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="body">
-<a href="./posts/index.html">
+<a href="./posts/101-intro-vizcom/101-intro-vizcom.html">
 <h3 class="no-anchor listing-title">
-Example notebooks including tutorial case studies
-</h3>
-<div class="listing-subtitle">
-
-</div>
-<div class="listing-description">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/index.html"> </a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="case studies,example code,PK/PD,subgroups" data-listing-date-sort="1702940400000" data-listing-file-modified-sort="1703001554243" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
-<div class="thumbnail">
-<p><a href="./posts/402-case2-pk/402-case2-pk.html"> <p class="card-img-top"><img src="posts/402-case2-pk/402-case2-pk_files/figure-html/unnamed-chunk-2-1.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
-<div class="body">
-<a href="./posts/402-case2-pk/402-case2-pk.html">
-<h3 class="no-anchor listing-title">
-Pharmacokinetic exposure by ethnicity
+Effective visual communication
 </h3>
 <div class="listing-subtitle">
 
 </div>
 </a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('case studies'); return false;">
-case studies
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('example code'); return false;">
-example code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('PK/PD'); return false;">
-PK/PD
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('subgroups'); return false;">
-subgroups
+<div class="listing-category" onclick="window.quartoListingCategory('introduction'); return false;">
+introduction
 </div>
 </div>
-<a href="./posts/402-case2-pk/402-case2-pk.html">
+<a href="./posts/101-intro-vizcom/101-intro-vizcom.html">
 <div class="listing-description">
-<p>Clarifying the purpose.</p>
+<p>A tutorial on effective visual communication for the quantitative scientist.</p>
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/402-case2-pk/402-case2-pk.html">
+<a href="./posts/101-intro-vizcom/101-intro-vizcom.html">
 <div class="listing-date">
 Dec 19, 2023
 </div>
-<div class="listing-author">
-Marc Vandemeulebroecke, Mark Baillie, Alison Margolskee, Baldur Magnusson
+<div class="listing-reading-time">
+2 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="cheat sheet,principles" data-listing-date-sort="1702940400000" data-listing-file-modified-sort="1703001504810" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/301-cheatsheet/301-cheatsheet.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/301-cheatsheet/301-cheatsheet.html">
-<h3 class="no-anchor listing-title">
-Graphics Principles Cheat Sheet
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('cheat sheet'); return false;">
-cheat sheet
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('principles'); return false;">
-principles
-</div>
-</div>
-<a href="./posts/301-cheatsheet/301-cheatsheet.html">
-<div class="listing-description">
-<p>A concise and accessible resource for everyday practical use.</p>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/301-cheatsheet/301-cheatsheet.html">
-<div class="listing-date">
-Dec 19, 2023
-</div>
-<div class="listing-author">
-Marc Vandemeulebroecke, Mark Baillie, Alison Margolskee, Baldur Magnusson
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="three laws,principles" data-listing-date-sort="1702940400000" data-listing-file-modified-sort="1703001785365" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10">
-<div class="thumbnail">
-<p><a href="./posts/201-three-laws-vizcom/201-three-laws-vizcom.html"> <p class="card-img-top"><img src="posts/201-three-laws-vizcom/Figure1b.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
+<div class="quarto-post image-right" data-index="1" data-categories="three laws,principles" data-listing-date-sort="1702940400000" data-listing-file-modified-sort="1703003408297" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10">
 <div class="body">
 <a href="./posts/201-three-laws-vizcom/201-three-laws-vizcom.html">
 <h3 class="no-anchor listing-title">
@@ -331,60 +287,48 @@ principles
 <div class="listing-date">
 Dec 19, 2023
 </div>
-<div class="listing-author">
-Marc Vandemeulebroecke, Mark Baillie, Alison Margolskee, Baldur Magnusson
+<div class="listing-reading-time">
+10 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="case studies,example code,waterfall plot,defaults" data-listing-date-sort="1702940400000" data-listing-file-modified-sort="1703001612728" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
-<div class="thumbnail">
-<p><a href="./posts/403-case3-waterfall/403-case3-waterfall.html"> <p class="card-img-top"><img src="posts/403-case3-waterfall/403-case3-waterfall_files/figure-html/unnamed-chunk-1-1.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
+<div class="quarto-post image-right" data-index="2" data-categories="cheat sheet,principles" data-listing-date-sort="1702940400000" data-listing-file-modified-sort="1703003408298" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="body">
-<a href="./posts/403-case3-waterfall/403-case3-waterfall.html">
+<a href="./posts/301-cheatsheet/301-cheatsheet.html">
 <h3 class="no-anchor listing-title">
-Why a waterfall plot?
+Graphics Principles Cheat Sheet
 </h3>
 <div class="listing-subtitle">
 
 </div>
 </a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('case studies'); return false;">
-case studies
+<div class="listing-category" onclick="window.quartoListingCategory('cheat sheet'); return false;">
+cheat sheet
 </div>
-<div class="listing-category" onclick="window.quartoListingCategory('example code'); return false;">
-example code
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('waterfall plot'); return false;">
-waterfall plot
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('defaults'); return false;">
-defaults
+<div class="listing-category" onclick="window.quartoListingCategory('principles'); return false;">
+principles
 </div>
 </div>
-<a href="./posts/403-case3-waterfall/403-case3-waterfall.html">
+<a href="./posts/301-cheatsheet/301-cheatsheet.html">
 <div class="listing-description">
-<p>Questioning the defaults.</p>
+<p>A concise and accessible resource for everyday practical use.</p>
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/403-case3-waterfall/403-case3-waterfall.html">
+<a href="./posts/301-cheatsheet/301-cheatsheet.html">
 <div class="listing-date">
 Dec 19, 2023
 </div>
-<div class="listing-author">
-Marc Vandemeulebroecke, Mark Baillie, Alison Margolskee, Baldur Magnusson
+<div class="listing-reading-time">
+1 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="case studies,example code,EDA,workflow" data-listing-date-sort="1702940400000" data-listing-file-modified-sort="1703001530768" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
-<div class="thumbnail">
-<p><a href="./posts/401-case1-eda/401-case1-eda.html"> <p class="card-img-top"><img src="posts/401-case1-eda/401-case1-eda_files/figure-html/unnamed-chunk-1-1.png"  class="thumbnail-image card-img"/></p> </a></p>
-</div>
+<div class="quarto-post image-right" data-index="3" data-categories="case studies,example code,EDA,workflow" data-listing-date-sort="1702940400000" data-listing-file-modified-sort="1703003408300" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
 <div class="body">
 <a href="./posts/401-case1-eda/401-case1-eda.html">
 <h3 class="no-anchor listing-title">
@@ -419,43 +363,90 @@ workflow
 <div class="listing-date">
 Dec 19, 2023
 </div>
-<div class="listing-author">
-Marc Vandemeulebroecke, Mark Baillie, Alison Margolskee, Baldur Magnusson
+<div class="listing-reading-time">
+5 min
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="introduction" data-listing-date-sort="1702940400000" data-listing-file-modified-sort="1703001465951" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
-<div class="thumbnail">
-<p><a href="./posts/101-intro-vizcom/101-intro-vizcom.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
+<div class="quarto-post image-right" data-index="4" data-categories="case studies,example code,PK/PD,subgroups" data-listing-date-sort="1702940400000" data-listing-file-modified-sort="1703003408303" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11">
 <div class="body">
-<a href="./posts/101-intro-vizcom/101-intro-vizcom.html">
+<a href="./posts/402-case2-pk/402-case2-pk.html">
 <h3 class="no-anchor listing-title">
-Effective visual communication
+Pharmacokinetic exposure by ethnicity
 </h3>
 <div class="listing-subtitle">
 
 </div>
 </a>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('introduction'); return false;">
-introduction
+<div class="listing-category" onclick="window.quartoListingCategory('case studies'); return false;">
+case studies
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('example code'); return false;">
+example code
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('PK/PD'); return false;">
+PK/PD
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('subgroups'); return false;">
+subgroups
 </div>
 </div>
-<a href="./posts/101-intro-vizcom/101-intro-vizcom.html">
+<a href="./posts/402-case2-pk/402-case2-pk.html">
 <div class="listing-description">
-<p>A tutorial on effective visual communication for the quantitative scientist.</p>
+<p>Clarifying the purpose.</p>
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="./posts/101-intro-vizcom/101-intro-vizcom.html">
+<a href="./posts/402-case2-pk/402-case2-pk.html">
 <div class="listing-date">
 Dec 19, 2023
 </div>
-<div class="listing-author">
-Marc Vandemeulebroecke, Mark Baillie, Alison Margolskee, Baldur Magnusson
+<div class="listing-reading-time">
+11 min
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="case studies,example code,waterfall plot,defaults" data-listing-date-sort="1702940400000" data-listing-file-modified-sort="1703003408305" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13">
+<div class="body">
+<a href="./posts/403-case3-waterfall/403-case3-waterfall.html">
+<h3 class="no-anchor listing-title">
+Why a waterfall plot?
+</h3>
+<div class="listing-subtitle">
+
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('case studies'); return false;">
+case studies
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('example code'); return false;">
+example code
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('waterfall plot'); return false;">
+waterfall plot
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('defaults'); return false;">
+defaults
+</div>
+</div>
+<a href="./posts/403-case3-waterfall/403-case3-waterfall.html">
+<div class="listing-description">
+<p>Questioning the defaults.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./posts/403-case3-waterfall/403-case3-waterfall.html">
+<div class="listing-date">
+Dec 19, 2023
+</div>
+<div class="listing-reading-time">
+13 min
 </div>
 </a>
 </div>
