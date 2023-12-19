@@ -15,7 +15,7 @@ categories:
   - cheat sheet
   - principles
 bibliography: paper.bib
-draft: false
+draft: true
 image: "../../assets/2018-11-06_thumbnail.png"
 ---
 

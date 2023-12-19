@@ -14,7 +14,7 @@ date: today
 categories:
   - introduction
   - EVC
-draft: false
+draft: true
 bibliography: biblio.bib
 image: "../../assets/EVC.png"
 ---

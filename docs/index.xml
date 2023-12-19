@@ -12,299 +12,6 @@
 <generator>quarto-1.3.361</generator>
 <lastBuildDate>Mon, 18 Dec 2023 23:00:00 GMT</lastBuildDate>
 <item>
-  <title>Effective visual communication</title>
-  <dc:creator>Marc Vandemeulebroecke</dc:creator>
-  <dc:creator>Mark Baillie</dc:creator>
-  <dc:creator>Alison Margolskee</dc:creator>
-  <dc:creator>Baldur Magnusson</dc:creator>
-  <link>https://graphicsprinciples.github.io/posts/101-intro-vizcom/101-intro-vizcom.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="what-is-evc" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-evc">What is EVC?</h2>
-<p>Effective visual communication is a core competency for pharmacometricians, statisticians, and more generally any quantitative scientist. It is essential in every step of a quantitative workflow, from scoping to execution and communicating results and conclusions. With this competency, we can better understand data and influence decisions towards appropriate actions. Without it, we can fool ourselves and others and pave the way to wrong conclusions and actions. The goal of this tutorial is to convey this competency.</p>
-</section>
-<section id="the-three-laws" class="level2">
-<h2 class="anchored" data-anchor-id="the-three-laws">The three laws</h2>
-<p>We posit three laws of effective visual communication for the quantitative scientist:</p>
-<ul>
-<li>have a clear purpose,</li>
-<li>show the data clearly,</li>
-<li>and make the message obvious.</li>
-</ul>
-</section>
-<section id="cheat-sheet-and-hands-on-tutorial" class="level2">
-<h2 class="anchored" data-anchor-id="cheat-sheet-and-hands-on-tutorial">Cheat sheet and hands-on tutorial</h2>
-<p>We defined the <a href="https://graphicsprinciples.github.io/tutorial-case-studies/posts/201-three-laws-vizcom/">three laws of effective visual communication</a> to provide overarching principled advice that can serve as a guiding star towards effective visual communication for the quantitative scientist. A concise <a href="https://github.com/GraphicsPrinciples/CheatSheet/blob/master/NVSCheatSheet.pdf">Cheat Sheet</a>, distills more granular recommendations for everyday practical use. Finally, these laws and recommendations are illustrated in four case studies. The aim of this site is to provide both the code, data and examples as stand alone posts. We hope that it proves useful for putting the three laws into practice.</p>
-<p>To further ease implementation in practice, it helps to distill the three laws in to even more detailed recommendations and illustrate them concretely. This is why we introduced a <a href="https://github.com/GraphicsPrinciples/CheatSheet/blob/master/NVSCheatSheet.pdf">cheat Sheet</a>. This single-page reference sheet is an integral part of this tutorial, carefully designed as a concise and accessible resource for everyday practical use. Yet, it draws from a wide range of sources including <span class="citation" data-cites="Bonate2014 Doumont2002 Cairo:2016 Few:2012 Ware:2004 Wong2010PointsOV doumont2009trees Heer:2010 Tufte1986 Gelman2013 Wong2010 wong2010wall Tufte1997 Wainer1984 munzner2015visualization Cleveland1985 Cleveland.McGill1985 Cleveland1987 Wilkinson:2005 tukey77 Duke2015 Robbins2012">(Bonate 2014; Jean L. Doumont 2002; Cairo 2016; Few 2012; Ware 2004; B. Wong 2010, 2011; J. L. Doumont 2009; Heer and Bostock 2010; Tufte 1986, 1997; Gelman and Unwin 2013; D. M. Wong 2010; Wainer 1984; Munzner 2015; Cleveland 1985; Cleveland and McGill 1985, 1987; Wilkinson 2005; Tukey 1977; Duke et al. 2015; Robbins 2012)</span>.</p>
-</section>
-<section id="were-to-find-out-more" class="level2">
-<h2 class="anchored" data-anchor-id="were-to-find-out-more">Were to find out more</h2>
-<p>The full version is <a href="https://graphicsprinciples.github.io">available</a> along with corresponding <a href="https://github.com/GraphicsPrinciples/CheatSheet">programming code in R</a>.</p>
-<p>The full published tutorial can is available and online at <a href="https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.12455">CPT:PSP here</a>.</p>
-<p>A pre-print of the complete tutorial can also be found at: https://arxiv.org/abs/1903.09512</p>
-
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-Bonate2014" class="csl-entry">
-Bonate, Peter L. 2014. <em>Be a Model Communicator and Sell Your Models to Anyone</em>. Published by Peter Bonate. <a href="https://www.amazon.com/Be-Model-Communicator-Models-2014-10-06/dp/B01LP3SHNM">https://www.amazon.com/Be-Model-Communicator-Models-2014-10-06/dp/B01LP3SHNM</a>.
-</div>
-<div id="ref-Cairo:2016" class="csl-entry">
-Cairo, Alberto. 2016. <em>The Truthful Art: Data, Charts, and Maps for Communication</em>. 1st ed. Thousand Oaks, CA, USA: New Riders Publishing.
-</div>
-<div id="ref-Cleveland1985" class="csl-entry">
-Cleveland, William S. 1985. <em>The Elements of Graphing Data</em>. Belmont, CA, USA: Wadsworth Publ. Co.
-</div>
-<div id="ref-Cleveland.McGill1985" class="csl-entry">
-Cleveland, William S., and Robert McGill. 1985. <span>“Graphical Perception and Graphical Methods for Analyzing Scientific Data.”</span> <em>Science</em> 229 (4716): 828–33. <a href="https://doi.org/10.1126/science.229.4716.828">https://doi.org/10.1126/science.229.4716.828</a>.
-</div>
-<div id="ref-Cleveland1987" class="csl-entry">
-———. 1987. <span>“Graphical Perception: The Visual Decoding of Quantitative Information on Graphical Displays of Data.”</span> <em>Journal of the Royal Statistical Society Series A</em> 150 (3): 192–229. <a href="http://www.jstor.org/stable/2981473">http://www.jstor.org/stable/2981473</a>.
-</div>
-<div id="ref-doumont2009trees" class="csl-entry">
-Doumont, J. L. 2009. <em>Trees, Maps, and Theorems: Effective Communication for Rational Minds</em>. Principiae. <a href="https://books.google.com/books?id=O2dFPgAACAAJ">https://books.google.com/books?id=O2dFPgAACAAJ</a>.
-</div>
-<div id="ref-Doumont2002" class="csl-entry">
-Doumont, Jean L. 2002. <span>“The Three Laws of Professional Communication.”</span> <em>IEEE Transactions on Professional Communication</em> 45 (4): 291–96. <a href="https://doi.org/10.1109/TPC.2002.805164">https://doi.org/10.1109/TPC.2002.805164</a>.
-</div>
-<div id="ref-Duke2015" class="csl-entry">
-Duke, Susan P., Fabrice Bancken, Brenda Crowe, Mat Soukup, Taxiarchis Botsis, and Richard Forshee. 2015. <span>“Seeing Is Believing: Good Graphic Design Principles for Medical Research.”</span> <em>Statistics in Medicine</em> 34 (22): 3040–59. <a href="https://doi.org/10.1002/sim.6549">https://doi.org/10.1002/sim.6549</a>.
-</div>
-<div id="ref-Few:2012" class="csl-entry">
-Few, Stephen. 2012. <em>Show Me the Numbers: Designing Tables and Graphs to Enlighten</em>. 2nd ed. USA: Analytics Press.
-</div>
-<div id="ref-Gelman2013" class="csl-entry">
-Gelman, Andrew, and Antony Unwin. 2013. <span>“Infovis and Statistical Graphics: Different Goals, Different Looks.”</span> <em>Journal of Computational and Graphical Statistics</em> 22 (1): 2–28. <a href="https://doi.org/10.1080/10618600.2012.761137">https://doi.org/10.1080/10618600.2012.761137</a>.
-</div>
-<div id="ref-Heer:2010" class="csl-entry">
-Heer, Jeffrey, and Michael Bostock. 2010. <span>“Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design.”</span> In <em>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</em>, 203–12. CHI ’10. New York, NY, USA: ACM. <a href="https://doi.org/10.1145/1753326.1753357">https://doi.org/10.1145/1753326.1753357</a>.
-</div>
-<div id="ref-munzner2015visualization" class="csl-entry">
-Munzner, Tamara. 2015. <em>Visualization Analysis and Design</em>. AK Peters Visualization Series. CRC Press. <a href="https://books.google.de/books?id=NfkYCwAAQBAJ">https://books.google.de/books?id=NfkYCwAAQBAJ</a>.
-</div>
-<div id="ref-Robbins2012" class="csl-entry">
-Robbins, Naomi B. 2012. <em>Creating More Effective Graphs</em>. Wiley. <a href="https://www.amazon.com/Creating-Effective-Graphs-Naomi-Robbins/dp/0985911123">https://www.amazon.com/Creating-Effective-Graphs-Naomi-Robbins/dp/0985911123</a>.
-</div>
-<div id="ref-Tufte1986" class="csl-entry">
-Tufte, Edward R. 1986. <em>The Visual Display of Quantitative Information</em>. Cheshire, CT, USA: Graphics Press.
-</div>
-<div id="ref-Tufte1997" class="csl-entry">
-———. 1997. <em>Visual Explanations: Images and Quantities, Evidence and Narrative</em>. Cheshire, CT, USA: Graphics Press.
-</div>
-<div id="ref-tukey77" class="csl-entry">
-Tukey, John W. 1977. <em>Exploratory Data Analysis</em>. Addison-Wesley.
-</div>
-<div id="ref-Wainer1984" class="csl-entry">
-Wainer, Howard. 1984. <span>“How to Display Data Badly.”</span> <em>The American Statistician</em> 38 (2): 137–47. <a href="https://doi.org/10.1080/00031305.1984.10483186">https://doi.org/10.1080/00031305.1984.10483186</a>.
-</div>
-<div id="ref-Ware:2004" class="csl-entry">
-Ware, Colin. 2004. <em>Information Visualization: Perception for Design</em>. San Francisco, CA, USA: Morgan Kaufmann Publishers Inc.
-</div>
-<div id="ref-Wilkinson:2005" class="csl-entry">
-Wilkinson, Leland. 2005. <em>The Grammar of Graphics (Statistics and Computing)</em>. Berlin, Heidelberg: Springer-Verlag.
-</div>
-<div id="ref-Wong2010PointsOV" class="csl-entry">
-Wong, Bang. 2010. <span>“Points of View: Gestalt Principles (Part 1).”</span> <em>Nature Methods</em> 7: 863–63.
-</div>
-<div id="ref-Wong2010" class="csl-entry">
-———. 2011. <span>“Points of View: Simplify to Clarify.”</span> <em>Nature Methods</em> 8 (8): 611. <a href="https://www.nature.com/articles/nmeth.1660">https://www.nature.com/articles/nmeth.1660</a>.
-</div>
-<div id="ref-wong2010wall" class="csl-entry">
-Wong, D. M. 2010. <em>The Wall Street Journal Guide to Information Graphics: The Dos and Don’ts of Presenting Data, Facts, and Figures</em>. W.W. Norton &amp; Company. <a href="https://books.google.com/books?id=RmaJPgAACAAJ">https://books.google.com/books?id=RmaJPgAACAAJ</a>.
-</div>
-</div></section></div> ]]></description>
-  <category>introduction</category>
-  <category>EVC</category>
-  <guid>https://graphicsprinciples.github.io/posts/101-intro-vizcom/101-intro-vizcom.html</guid>
-  <pubDate>Mon, 18 Dec 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://graphicsprinciples.github.io/assets/EVC.png" medium="image" type="image/png" height="136" width="144"/>
-</item>
-<item>
-  <title>Three laws of visual communication</title>
-  <dc:creator>Marc Vandemeulebroecke</dc:creator>
-  <dc:creator>Mark Baillie</dc:creator>
-  <dc:creator>Alison Margolskee</dc:creator>
-  <dc:creator>Baldur Magnusson</dc:creator>
-  <link>https://graphicsprinciples.github.io/posts/201-three-laws-vizcom/201-three-laws-vizcom.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="law-1-have-a-clear-purpose" class="level2">
-<h2 class="anchored" data-anchor-id="law-1-have-a-clear-purpose">Law 1: Have a clear purpose</h2>
-<p>Why? <span class="citation" data-cites="sinek2009start Bonate2014">(Sinek 2009; Bonate 2014)</span> What is the purpose of this display or that communication? Doumont <span class="citation" data-cites="Doumont2002">(Jean L. Doumont 2002)</span> states this as the “zeroth law” of professional communication, “a principle so obvious that it had long been overlooked”. Be clear and explicit about what you want to achieve. Is it to explore some data, to convey an inferential analysis, to deliver a message, convince an audience, or support a decision? It may be a mixture of these – for example, even seemingly simple exploratory plots should serve some (perhaps implicit) decision (e.g.&nbsp;on how to explore further). Every graph, and more generally every communication, must be tailored to its specific purpose.</p>
-<p>It helps to carve out the scientific question you are trying to address, ideally in discussion with partners, and to write it down explicitly. Try not to look at any data before. This is the concept of “question-based visualizations”<span class="citation" data-cites="Vandemeulebroecke2019">(Vandemeulebroecke et al. 2019)</span>: let the scientific question determine what data to display and how. (For example, combine data from different domains if it helps address the question effectively. Do not only produce standard outputs by data domain – a display should be determined by the question it addresses, not by the way the data is organized.). As Diggle <span class="citation" data-cites="Diggle2018">(Diggle 2018)</span> put it, we “analyze problems, not data”. This does not mean that the question could not be refined after seeing the data. We may well iterate over the problem space and the solution space – as long as we do it consciously. Senn <span class="citation" data-cites="senn2008statistical">(Senn 2008)</span> illustrates many examples of wrongly framed research questions. A common one is to focus on the wrong comparison, such as comparing a post-treatment value to the corresponding baseline value instead of to the value under a control treatment. Most quantitative graphs display comparisons <span class="citation" data-cites="Gelman2002">(Gelman, Pasarica, and Dodhia 2002)</span>, and it always helps to ask “compared to what?” <span class="citation" data-cites="Tufte1986">(Tufte 1986)</span>. If the comparison is not clear to the author, it will also not be clear to the reader.</p>
-<p>Part of this first law (and of the third, see below) is also to be clear about your audience. Then, to adapt to your audience. Do not assume it will adapt to you. You cannot control your audience, but you can control what information and messages you deliver to it, and how. Is your audience just you (trying to see patterns in data), you in a few years (trying to remember what you did), quantitative experts such as your peers (interested in your methods), subject matter experts (eager for your main message), decision-makers (headlines only), or a mixture of these? Your visual communication will need to be different accordingly. Your communication (plot, presentation, report) is for the audience, not for you.</p>
-<p>Clarity on the purpose and the scientific question of interest will help choose appropriate quantitative methods to address them. This, plus clarity on your audience, will help define the key messages and how to deliver them. (On the aspect of delivery see also Law 3 below.)</p>
-<p>Of note, this first law is so important that it may occasionally defy other good principles. If your primary goal is to catch attention, then you may choose an iconic graphical representation that does this well, even if it violates some of the recommendations given further below <span class="citation" data-cites="Gelman2013">(Gelman and Unwin 2013)</span>. However, you should never distort the data.</p>
-</section>
-<section id="law-2-show-the-data-clearly" class="level2">
-<h2 class="anchored" data-anchor-id="law-2-show-the-data-clearly">Law 2: Show the data clearly</h2>
-<p>This is Tufte’s maxim <span class="citation" data-cites="Tufte1986">(Tufte 1986)</span>: “Above all else, show the data”. Show it accurately and clearly. This law has several faces:</p>
-<ul>
-<li><p>Simplify! “Simplify to clarify” <span class="citation" data-cites="Wong2010">(B. Wong 2011)</span>. It is the prime task of quantitative scientists to make the complex simple: reveal structure in data through models, make inference through analyses, distill and convey conclusions through (visual) communication. Choose the simplest appropriate graph type; prefer familiar designs over fancy ones (see also the Cleveland-McGill effectiveness ranking in Law 3 below). Avoid fake dimensions. Make your plot “as simple as it can be, but not simpler” (attributed to Albert Einstein; also “Occam’s razor” or the law of parsimony). “Understand, edit and simplify the information and design with your readers in mind” <span class="citation" data-cites="wong2010wall">(D. M. Wong 2010)</span>. Do not be confused: it is hard to make things simple. This is an iterative process: “edit and revise” <span class="citation" data-cites="Tufte1986">(Tufte 1986)</span>, and repeat.</p></li>
-<li><p>Maximize the data-to-ink ratio (also “data density index” <span class="citation" data-cites="Tufte1986">(Tufte 1986)</span>) within reason. Maximize the signal over the noise by removing the noise: remove anything that distracts from the purpose of the graph. Nothing is neutral: the choice of symbols or colors, background, fonts, line style, annotations. These elements are noise if they do not serve a clear purpose. Choose them wisely and parsimoniously; make the data stand out. Do not trust defaults in graphical software packages. Often, intelligent use of white space can structure a display better than a lot of ink. (The same holds for tables: these are often most effectively structured by reserving black lines for the horizontal direction and using simple alignment in the vertical direction.) Never clutter your graph with “chart junk” <span class="citation" data-cites="Tufte1997">(Tufte 1997)</span>.</p></li>
-<li><p>Display the relevant data directly. In a quantitative workflow, this often means to look at the raw data and not just rely on summary statistics. Cabanski8 illustrates this with nine datasets that show completely different patterns despite identical marginal means, standard deviations and correlation coefficients (see also Anscombe <span class="citation" data-cites="Anscombe1973">(Anscombe 1973)</span> and Matejka and Fitzmaurice <span class="citation" data-cites="Matejka2017">(Matejka and Fitzmaurice 2017)</span>). Ask yourself what is the best way of summarizing the relevant features of the data; it may not be the mean +/- standard error. When fitting a (statistical, compartmental, mechanistic etc.) model to the data to draw inference or make predictions, model-derived quantities may be the relevant data to display. In this case a plot of the raw data may be misleading if it does not account for important covariates. In a final communication, display concisely what best supports your message (see also below, Law 3).</p></li>
-</ul>
-<div class="cell">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://graphicsprinciples.github.io/posts/201-three-laws-vizcom/Figure1b.png" class="img-fluid figure-img" width="518"></p>
-<figcaption class="figure-caption">Figure 1 illustrates some aspects of this second law. Wainer <span class="citation" data-cites="Wainer1984">(Wainer 1984)</span> has turned this law around, noting that “methods for displaying data badly have been developed for many years, and a wide variety of interesting and inventive schemes have emerged”. He provides 12 highly amusing rules for “how to display data badly”, with striking examples. He then concludes more seriously: “The rules for good display are quite simple. Examine the data carefully enough to know what they have to say, and then let them say it with a minimum of adornment. Do this while following reasonable regularity practices in the depiction of scale, and label clearly and fully.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="law-3-make-the-message-obvious" class="level2">
-<h2 class="anchored" data-anchor-id="law-3-make-the-message-obvious">Law 3: Make the message obvious</h2>
-<p>If the second law focused on the data (with a tendency to reduce noise), then the third is all about the message (and amplifying the signal). This assumes that you do have a message to tell, and that this message is clear at least to yourself. If there is any doubt on this, return to the first law.</p>
-<p>The third law mandates to make your message as obvious as possible. Quoting Krzywinski and Cairo <span class="citation" data-cites="Krzywinski2013">(Krzywinski and Cairo 2013)</span>, “inviting readers to draw their own conclusions is risky”. Do not only make your message easy to get. Make it impossible to miss. This extends beyond graphical elements and involves all aspects of communication.</p>
-<p>Clarity on your audience, mentioned already in the first law, is also a prerequisite for the third. It is needed for carving out the message to tell (Law 1) and for adapting its way of delivery (Law 3).</p>
-<p>Specific examples for the third law include the following:</p>
-<ul>
-<li><p>Choose wisely how to encode the data you display. Color and area are good for drawing attention, but a viewer can decode positions on a common scale much more easily and accurately. Consider the effectiveness ranking of graphical attributes for encoding numerical values, as proposed by Cleveland and McGill [<span class="citation" data-cites="Cleveland1985">Cleveland (1985)</span>; <span class="citation" data-cites="Cleveland1984">Cleveland (1984)</span>; Cleveland.McGill1984; Cleveland1987; <span class="citation" data-cites="Cleveland.McGill1985">Cleveland and McGill (1985)</span>] (see also Cairo <span class="citation" data-cites="Cairo:2016">(Cairo 2016)</span>, Munzner <span class="citation" data-cites="munzner2015visualization">(Munzner 2015)</span>, and Heer and Bostock <span class="citation" data-cites="Heer:2010">(Heer and Bostock 2010)</span>). See <a href="https://flowingdata.com/2010/03/20/graphical-perception-learn-the-fundamentals-first/">here</a> for an overview of this ranking.</p></li>
-<li><p>Exploit pre-attentive processing as much as possible <span class="citation" data-cites="Few:2012 Ware:2004">(Few 2012; Ware 2004)</span>. Some graphical features “jump to the eye” while others require careful inspection. Consider this in your choice of how to encode the data (Cleveland-McGill effectiveness ranking, see above) and in your choice of symbols, colors, line types etc. See <a href="http://daydreamingnumbers.com/blog/preattentive-attributes-example/">here</a> for an illustration.</p></li>
-<li><p>Avoid mental arithmetic. If differences or ratios are the main interest, show them directly. If both raw values and differences are of interest, consider showing both.</p></li>
-<li><p>Exploit the principles of visual grouping <span class="citation" data-cites="Wong2010PointsOV">(B. Wong 2010)</span>. Graphical entities are most effectively grouped by enclosure, connection, proximity and similarity (in this order). That is, similar objects are perceived as belonging together, as are objects close to each other, connected by lines, or enclosed in a common subspace. See Figure 3 for an illustration: these mechanisms can provide contextual information to a plot in a simple yet powerful way.</p></li>
-<li><p>Minimize the viewer’s eye movement. Place elements that are to be compared close to each other. Prefer direct labelling over a legend. See also <a href="https://www.storytellingwithdata.com/?offset=1531087200576">here</a>.</p></li>
-<li><p>Draw the reader’s attention to the main points. Use appropriate graphical features (e.g.&nbsp;bold or colored highlighting, reference lines, circling etc.). Follow up with explicit labelling (e.g.&nbsp;“treatment A outperforms treatment B by X%”).</p></li>
-<li><p>Add meaningful information to a graph to tell the whole story. E.g., include reference lines, benchmark effects, inferences etc.</p></li>
-<li><p>Use effective redundancy. Convey the same message through multiple channels, to amplify it and give the audience a second chance to get it. Use words and pictures in unison <span class="citation" data-cites="doumont2009trees">(J. L. Doumont 2009)</span>. E.g., in addition to showing the data, consider annotating the “good” or “bad” axis direction, and state what is seen in plain words. Do not confuse redundancy (pointlessly cluttering the graph) with effective redundancy (conveying a message through multiple complementary channels).</p></li>
-<li><p>Let every plot stand on its own. Use informative labels and captions, and explain abbreviations. Do not require the reader to search through text in order to understand a figure.</p></li>
-<li><p>Always add a title to your plot. Phrase it as a conclusion, not a description (e.g.&nbsp;“plasma concentration depends on body weight” rather than “plot of plasma concentration vs.&nbsp;body weight”).</p></li>
-</ul>
-
-
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
-<div id="ref-Anscombe1973" class="csl-entry">
-Anscombe, F. J. 1973. <span>“Graphs in Statistical Analysis.”</span> <em>The American Statistician</em> 27 (1): 17–21. <a href="http://www.jstor.org/stable/2682899">http://www.jstor.org/stable/2682899</a>.
-</div>
-<div id="ref-Bonate2014" class="csl-entry">
-Bonate, Peter L. 2014. <em>Be a Model Communicator and Sell Your Models to Anyone</em>. Published by Peter Bonate. <a href="https://www.amazon.com/Be-Model-Communicator-Models-2014-10-06/dp/B01LP3SHNM">https://www.amazon.com/Be-Model-Communicator-Models-2014-10-06/dp/B01LP3SHNM</a>.
-</div>
-<div id="ref-Cairo:2016" class="csl-entry">
-Cairo, Alberto. 2016. <em>The Truthful Art: Data, Charts, and Maps for Communication</em>. 1st ed. Thousand Oaks, CA, USA: New Riders Publishing.
-</div>
-<div id="ref-Cleveland1984" class="csl-entry">
-Cleveland, William S. 1984. <span>“Graphs in Scientific Publications.”</span> <em>The American Statistician</em> 38 (4): 261–69. <a href="https://doi.org/10.1080/00031305.1984.10483223">https://doi.org/10.1080/00031305.1984.10483223</a>.
-</div>
-<div id="ref-Cleveland1985" class="csl-entry">
-———. 1985. <em>The Elements of Graphing Data</em>. Belmont, CA, USA: Wadsworth Publ. Co.
-</div>
-<div id="ref-Cleveland.McGill1985" class="csl-entry">
-Cleveland, William S., and Robert McGill. 1985. <span>“Graphical Perception and Graphical Methods for Analyzing Scientific Data.”</span> <em>Science</em> 229 (4716): 828–33. <a href="https://doi.org/10.1126/science.229.4716.828">https://doi.org/10.1126/science.229.4716.828</a>.
-</div>
-<div id="ref-Diggle2018" class="csl-entry">
-Diggle, Peter J. 2018. <span>“Analyse Problems, Not Data: One World, One Health.”</span> <em>Spatial Statistics</em> 28 (December): 4–7. <a href="https://doi.org/10.1016/j.spasta.2018.10.003">https://doi.org/10.1016/j.spasta.2018.10.003</a>.
-</div>
-<div id="ref-doumont2009trees" class="csl-entry">
-Doumont, J. L. 2009. <em>Trees, Maps, and Theorems: Effective Communication for Rational Minds</em>. Principiae. <a href="https://books.google.com/books?id=O2dFPgAACAAJ">https://books.google.com/books?id=O2dFPgAACAAJ</a>.
-</div>
-<div id="ref-Doumont2002" class="csl-entry">
-Doumont, Jean L. 2002. <span>“The Three Laws of Professional Communication.”</span> <em>IEEE Transactions on Professional Communication</em> 45 (4): 291–96. <a href="https://doi.org/10.1109/TPC.2002.805164">https://doi.org/10.1109/TPC.2002.805164</a>.
-</div>
-<div id="ref-Few:2012" class="csl-entry">
-Few, Stephen. 2012. <em>Show Me the Numbers: Designing Tables and Graphs to Enlighten</em>. 2nd ed. USA: Analytics Press.
-</div>
-<div id="ref-Gelman2002" class="csl-entry">
-Gelman, Andrew, Cristian Pasarica, and Rahul Dodhia. 2002. <span>“Let’s Practice What We Preach.”</span> <em>The American Statistician</em> 56 (2): 121–30. <a href="https://doi.org/10.1198/000313002317572790">https://doi.org/10.1198/000313002317572790</a>.
-</div>
-<div id="ref-Gelman2013" class="csl-entry">
-Gelman, Andrew, and Antony Unwin. 2013. <span>“Infovis and Statistical Graphics: Different Goals, Different Looks.”</span> <em>Journal of Computational and Graphical Statistics</em> 22 (1): 2–28. <a href="https://doi.org/10.1080/10618600.2012.761137">https://doi.org/10.1080/10618600.2012.761137</a>.
-</div>
-<div id="ref-Heer:2010" class="csl-entry">
-Heer, Jeffrey, and Michael Bostock. 2010. <span>“Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design.”</span> In <em>Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</em>, 203–12. CHI ’10. New York, NY, USA: ACM. <a href="https://doi.org/10.1145/1753326.1753357">https://doi.org/10.1145/1753326.1753357</a>.
-</div>
-<div id="ref-Krzywinski2013" class="csl-entry">
-Krzywinski, M., and A. Cairo. 2013. <span>“Reply to: "Against Storytelling of Scientific Results".”</span> <em>Nature Methods</em> 10: 1046. <a href="https://www.nature.com/articles/nmeth.2699">https://www.nature.com/articles/nmeth.2699</a>.
-</div>
-<div id="ref-Matejka2017" class="csl-entry">
-Matejka, Justin, and George Fitzmaurice. 2017. <span>“Same Stats, Different Graphs: Generating Datasets with Varied Appearance and Identical Statistics Through Simulated Annealing.”</span> In <em>Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems</em>, 1290–94. CHI ’17. New York, NY, USA: ACM. <a href="https://doi.org/10.1145/3025453.3025912">https://doi.org/10.1145/3025453.3025912</a>.
-</div>
-<div id="ref-munzner2015visualization" class="csl-entry">
-Munzner, Tamara. 2015. <em>Visualization Analysis and Design</em>. AK Peters Visualization Series. CRC Press. <a href="https://books.google.de/books?id=NfkYCwAAQBAJ">https://books.google.de/books?id=NfkYCwAAQBAJ</a>.
-</div>
-<div id="ref-senn2008statistical" class="csl-entry">
-Senn, S. S. 2008. <em>Statistical Issues in Drug Development</em>. Statistics in Practice. Wiley. <a href="https://books.google.com/books?id=cmMbCcqnAXcC">https://books.google.com/books?id=cmMbCcqnAXcC</a>.
-</div>
-<div id="ref-sinek2009start" class="csl-entry">
-Sinek, S. 2009. <em>Start with Why: How Great Leaders Inspire Everyone to Take Action</em>. Penguin Publishing Group. <a href="https://books.google.com/books?id=iyw6ul1x\_n8C">https://books.google.com/books?id=iyw6ul1x\_n8C</a>.
-</div>
-<div id="ref-Tufte1986" class="csl-entry">
-Tufte, Edward R. 1986. <em>The Visual Display of Quantitative Information</em>. Cheshire, CT, USA: Graphics Press.
-</div>
-<div id="ref-Tufte1997" class="csl-entry">
-———. 1997. <em>Visual Explanations: Images and Quantities, Evidence and Narrative</em>. Cheshire, CT, USA: Graphics Press.
-</div>
-<div id="ref-Vandemeulebroecke2019" class="csl-entry">
-Vandemeulebroecke, Marc, Mark Baillie, David Carr, Linda Kanitra, Alison Margolskee, Andrew Wright, and Baldur Magnusson. 2019. <span>“How Can We Make Better Graphs? An Initiative to Increase the Graphical Expertise and Productivity of Quantitative Scientists.”</span> <em>Pharmaceutical Statistics</em> 18 (1): 106–14. <a href="https://doi.org/10.1002/pst.1912">https://doi.org/10.1002/pst.1912</a>.
-</div>
-<div id="ref-Wainer1984" class="csl-entry">
-Wainer, Howard. 1984. <span>“How to Display Data Badly.”</span> <em>The American Statistician</em> 38 (2): 137–47. <a href="https://doi.org/10.1080/00031305.1984.10483186">https://doi.org/10.1080/00031305.1984.10483186</a>.
-</div>
-<div id="ref-Ware:2004" class="csl-entry">
-Ware, Colin. 2004. <em>Information Visualization: Perception for Design</em>. San Francisco, CA, USA: Morgan Kaufmann Publishers Inc.
-</div>
-<div id="ref-Wong2010PointsOV" class="csl-entry">
-Wong, Bang. 2010. <span>“Points of View: Gestalt Principles (Part 1).”</span> <em>Nature Methods</em> 7: 863–63.
-</div>
-<div id="ref-Wong2010" class="csl-entry">
-———. 2011. <span>“Points of View: Simplify to Clarify.”</span> <em>Nature Methods</em> 8 (8): 611. <a href="https://www.nature.com/articles/nmeth.1660">https://www.nature.com/articles/nmeth.1660</a>.
-</div>
-<div id="ref-wong2010wall" class="csl-entry">
-Wong, D. M. 2010. <em>The Wall Street Journal Guide to Information Graphics: The Dos and Don’ts of Presenting Data, Facts, and Figures</em>. W.W. Norton &amp; Company. <a href="https://books.google.com/books?id=RmaJPgAACAAJ">https://books.google.com/books?id=RmaJPgAACAAJ</a>.
-</div>
-</div></section></div> ]]></description>
-  <category>three laws</category>
-  <category>principles</category>
-  <guid>https://graphicsprinciples.github.io/posts/201-three-laws-vizcom/201-three-laws-vizcom.html</guid>
-  <pubDate>Mon, 18 Dec 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://graphicsprinciples.github.io/assets/logo.png" medium="image" type="image/png" height="107" width="144"/>
-</item>
-<item>
-  <title>Graphics Principles Cheat Sheet</title>
-  <dc:creator>Marc Vandemeulebroecke</dc:creator>
-  <dc:creator>Mark Baillie</dc:creator>
-  <dc:creator>Alison Margolskee</dc:creator>
-  <dc:creator>Baldur Magnusson</dc:creator>
-  <link>https://graphicsprinciples.github.io/posts/301-cheatsheet/301-cheatsheet.html</link>
-  <description><![CDATA[ 
-
-
-
-<section id="cheat-sheet" class="level2">
-<h2 class="anchored" data-anchor-id="cheat-sheet">Cheat sheet</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://graphicsprinciples.github.io/assets/2018-11-06_thumbnail.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption">Cheat sheet</figcaption>
-</figure>
-</div>
-<p>The three laws outlined <a href="https://graphicsprinciples.github.io/tutorial-case-studies/posts/201-three-laws-vizcom/">here</a> provide overarching principled advice, and should serve as a guiding star towards effective visual communication for the quantitative scientist. To further ease their implementation in practice, it helps to distill even more detailed recommendations and to illustrate them concretely.</p>
-<p>To this end, we have introduced the Graphics Principles <a href="https://github.com/GraphicsPrinciples/CheatSheet/blob/master/NVSCheatSheet.pdf">Cheat Sheet</a>.This single-page reference sheet is an integral part of this <a href="https://graphicsprinciples.github.io/tutorial.html">tutorial</a>. It was carefully designed as a concise and accessible resource for everyday practical use. Yet, it draws from a wide range of sources. We hope that it proves useful for putting the three laws into practice.</p>
-<p>The full version is <a href="https://graphicsprinciples.github.io">available</a> along with corresponding <a href="https://github.com/GraphicsPrinciples/CheatSheet">programming code in R</a>.</p>
-
-
-</section>
-
- ]]></description>
-  <category>cheat sheet</category>
-  <category>principles</category>
-  <guid>https://graphicsprinciples.github.io/posts/301-cheatsheet/301-cheatsheet.html</guid>
-  <pubDate>Mon, 18 Dec 2023 23:00:00 GMT</pubDate>
-  <media:content url="https://graphicsprinciples.github.io/assets/2018-11-06_thumbnail.png" medium="image" type="image/png" height="56" width="144"/>
-</item>
-<item>
   <title>Exploratory exposure-response analysis</title>
   <dc:creator>Marc Vandemeulebroecke</dc:creator>
   <dc:creator>Mark Baillie</dc:creator>
@@ -3914,6 +3621,1388 @@ font-style: inherit;">sessionInfo</span>()</span></code></pre></div>
   <category>waterfall plot</category>
   <category>defaults</category>
   <guid>https://graphicsprinciples.github.io/posts/403-case3-waterfall/403-case3-waterfall.html</guid>
+  <pubDate>Mon, 18 Dec 2023 23:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Post-hoc subgroup analyses</title>
+  <dc:creator>Marc Vandemeulebroecke</dc:creator>
+  <dc:creator>Mark Baillie</dc:creator>
+  <dc:creator>Alison Margolskee</dc:creator>
+  <dc:creator>Baldur Magnusson</dc:creator>
+  <link>https://graphicsprinciples.github.io/posts/404-case4-subgroup/404-case4-subgroup.html</link>
+  <description><![CDATA[ 
+
+
+
+<p>Post-hoc exploratory subgroup analyses are common especially after borderline or failed clinical trials <span class="citation" data-cites="Wang2007">(Wang et al. 2007)</span>. Often the objective of such analyses is to understand why the study failed, or to identify a subgroup of patients who did show sufficient response to the treatment <span class="citation" data-cites="Ruberg2015 Lipkovich2017">(Ruberg and Shen 2015; Lipkovich, Dmitrienko, and B. D’Agostino Sr. 2017)</span> In this fourth case study we illustrate the challenge of navigating this type of analysis. The objective is to present to decision-makers a recommendation whether or not to proceed with further investigation of a genetic marker that may be predictive of response to treatment.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Read in data and define order for factors.</span></span>
+<span id="cb1-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Dervie visit time in weeks from hours</span></span>
+<span id="cb1-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Define informative label for plotting subgroups</span></span>
+<span id="cb1-4">my_data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">read.csv</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"../../data/PKPDdataset2.csv"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(CMT <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> DOSE <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%in%</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">150</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> PART <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> STUDY <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(</span>
+<span id="cb1-7">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">TRTACT =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">factor</span>(TRTACT, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">levels =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">unique</span>(TRTACT[<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">order</span>(DOSE)])),</span>
+<span id="cb1-8">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Treatment =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">factor</span>(TRTACT, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">levels =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">levels</span>(TRTACT)),</span>
+<span id="cb1-9">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Visit =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">factor</span>(</span>
+<span id="cb1-10">      plyr<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">::</span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mapvalues</span>(</span>
+<span id="cb1-11">        <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">round</span>(NOMTIME),</span>
+<span id="cb1-12">        <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sort</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">unique</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">round</span>(NOMTIME))), </span>
+<span id="cb1-13">        <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">101</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">102</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">103</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">104</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">105</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">106</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">107</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">108</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">199</span>))</span>
+<span id="cb1-14">      ),</span>
+<span id="cb1-15">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">NOMTIME =</span> NOMTIME<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">24</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">7</span>, </span>
+<span id="cb1-16">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Biomarker =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ifelse</span>(subgroup <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Negative"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Positive"</span>)</span>
+<span id="cb1-17">  )</span>
+<span id="cb1-18"></span>
+<span id="cb1-19"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Obtain baseline measurement </span></span>
+<span id="cb1-20">base_data <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> </span>
+<span id="cb1-21">  my_data <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> </span>
+<span id="cb1-22">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(PROFDAY <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-23">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">BASE =</span> LIDV) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-24">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">select</span>(ID, BASE)</span>
+<span id="cb1-25"></span>
+<span id="cb1-26"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Derive change and percent change from baseline</span></span>
+<span id="cb1-27">data_to_plot <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> </span>
+<span id="cb1-28">  my_data <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-29">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(PROFDAY <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-30">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">left_join</span>(base_data) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb1-31">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(</span>
+<span id="cb1-32">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">CHG =</span> LIDV <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> BASE,</span>
+<span id="cb1-33">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">PCHG =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> (LIDV <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> BASE)<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span>LIDV</span>
+<span id="cb1-34">    ) </span></code></pre></div>
+</div>
+<p>Figure 1 displays the desired effect, percentage body weight loss from baseline, for an active treatment and a placebo control arm. The primary endpoint is 12 weeks after randomization. Although the active treatment reduced body weight, the average extent of the effect was not considered clinically meaningful. However, the team found a subgroup of patients identified by a biologically plausible genetic marker who appeared to benefit more strongly from the compound, as shown in Figure 2.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1">data_to_plot <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb2-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> Visit, </span>
+<span id="cb2-3">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> PCHG, </span>
+<span id="cb2-4">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">group =</span> Treatment, </span>
+<span id="cb2-5">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">shape =</span> Treatment, </span>
+<span id="cb2-6">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill =</span> Treatment)</span>
+<span id="cb2-7">         ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-8">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_bw</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">base_size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb2-9">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">stat_summary</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fun.data =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"mean_cl_normal"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">geom =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"errorbar"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-10">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">stat_summary</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">geom =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"line"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fun.y =</span> mean) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb2-11">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">stat_summary</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">geom =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"point"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fun.y =</span> mean, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">stroke =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-12">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_y_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">breaks =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-13">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">coord_cartesian</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylim =</span> (<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>))) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb2-14">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Visit"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight loss (%)"</span>)</span></code></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://graphicsprinciples.github.io/posts/404-case4-subgroup/404-case4-subgroup_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption class="figure-caption">Post-hoc subgroup analysis. A project team saw an overall insufficient treatment effect regarding weight loss, but a seemingly stronger benefit in a subgroup of patients identified by a biologically plausible genetic marker.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>At this point we need to intervene. Already the first plot did not show the data clearly (Law 2), using barely distinguishable plot symbols and huge ticks at the end of the error bars, too many ticks on the y-axis, and – worst offense – visit numbers on the x-axis (equally spaced!). The second plot, in addition, is fundamentally flawed, because it displays the wrong comparison (Law 1, wrong scientific question). The treatment effect in this trial is weight loss under active treatment compared to weight loss under placebo, and this subgroup analysis removes the placebo arm completely.</p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1">data_to_plot <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb3-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(DOSE <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb3-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> Visit, </span>
+<span id="cb3-4">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> PCHG, </span>
+<span id="cb3-5">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">group =</span> Biomarker</span>
+<span id="cb3-6">             )</span>
+<span id="cb3-7">         ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb3-8">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_bw</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">base_size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb3-9">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">stat_summary</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fun.data =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"mean_cl_normal"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">geom =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"errorbar"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb3-10">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">stat_summary</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fun.y =</span> mean, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">geom =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"line"</span>, </span>
+<span id="cb3-11">               <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">linetype =</span> Biomarker), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb3-12">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">stat_summary</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fun.y =</span> mean, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">geom =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"point"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">shape =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">17</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb3-13">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_y_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">breaks =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb3-14">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">coord_cartesian</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylim =</span> (<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>))) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb3-15">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Visit"</span>, </span>
+<span id="cb3-16">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight loss (%)"</span>,</span>
+<span id="cb3-17">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">linetype =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Genetic marker</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">(150 mg)"</span>) </span></code></pre></div>
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://graphicsprinciples.github.io/posts/404-case4-subgroup/404-case4-subgroup_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid figure-img" width="672"></p>
+<figcaption class="figure-caption">Getting the comparison right, however, it becomes clear that the marker, while prognostic for weight loss in general, is not predictive for a treatment effect vs.&nbsp;placebo.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1">data_to_plot <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb4-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> NOMTIME, </span>
+<span id="cb4-3">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> PCHG, </span>
+<span id="cb4-4">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">group =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">interaction</span>(Biomarker,Treatment),</span>
+<span id="cb4-5">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fill =</span> Treatment</span>
+<span id="cb4-6">             )</span>
+<span id="cb4-7">         ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-8">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_bw</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">base_size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb4-9">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">stat_summary</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fun.data =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"mean_cl_normal"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">geom =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"errorbar"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">width =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-10">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">stat_summary</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fun.y =</span> mean, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">geom =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"line"</span>, </span>
+<span id="cb4-11">               <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">linetype =</span> Biomarker), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb4-12">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">stat_summary</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">fun.y =</span> mean, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">geom =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"point"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">shape =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">21</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-13">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_fill_manual</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">values =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"white"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-14">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_y_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">breaks =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-15">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_x_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">breaks =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">8</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>,<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>), <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">minor_breaks =</span> <span class="cn" style="color: #8f5902;
+background-color: null;
+font-style: inherit;">NULL</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-16">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">coord_cartesian</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ylim =</span> (<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>))) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb4-17">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Visit"</span>, </span>
+<span id="cb4-18">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Weight loss (%)</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">Mean (95% CI)"</span>,</span>
+<span id="cb4-19">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">linetype =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Genetic marker"</span>) </span></code></pre></div>
+<div class="cell-output-display">
+<p><img src="https://graphicsprinciples.github.io/posts/404-case4-subgroup/404-case4-subgroup_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1">data_to_plot <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> data_to_plot <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb5-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(</span>
+<span id="cb5-3">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subgroup =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">factor</span>(subgroup)</span>
+<span id="cb5-4">  )</span>
+<span id="cb5-5"></span>
+<span id="cb5-6">m2 <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">lmer</span>(LIDV <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> BASE <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> Visit <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> Treatment <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> subgroup <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb5-7">             BASE<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>Visit <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-8">             Treatment<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>Visit <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-9">             subgroup<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>Treatment <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-10">             subgroup<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>Visit <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb5-11">             subgroup<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>Visit<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>Treatment <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> (Visit <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|</span> ID), data_to_plot)</span>
+<span id="cb5-12"></span>
+<span id="cb5-13"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Comparison by each time-point * subgroup</span></span>
+<span id="cb5-14">ests <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">emmeans</span>(m2, pairwise <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">~</span> Treatment <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">|</span> Visit <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> subgroup) </span>
+<span id="cb5-15"></span>
+<span id="cb5-16"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Obtain visit labels and mapping to nomtime</span></span>
+<span id="cb5-17">vis_dat <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> data_to_plot <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb5-18">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">select</span>(Visit, NOMTIME) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb5-19">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">unique</span>()</span>
+<span id="cb5-20"></span>
+<span id="cb5-21"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Transform estimates in to data frame</span></span>
+<span id="cb5-22"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Derive subgroup label </span></span>
+<span id="cb5-23"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Reverse direction of trt comparison i.e. trt - pbo</span></span>
+<span id="cb5-24"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Derive week for displaying subgroups clearly </span></span>
+<span id="cb5-25"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Add visit labels on to data frame</span></span>
+<span id="cb5-26">emm1df <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">as.data.frame</span>(ests<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">$</span>contrasts) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb5-27">    <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Visit =</span> contrasts.Visit, </span>
+<span id="cb5-28">         <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">subgroup =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ifelse</span>(contrasts.subgroup <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Negative"</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Positive"</span>),</span>
+<span id="cb5-29">         <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span>contrasts.estimate</span>
+<span id="cb5-30">         ) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb5-31">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">left_join</span>(vis_dat) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb5-32">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">mutate</span>(</span>
+<span id="cb5-33">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Visit =</span> contrasts.Visit,</span>
+<span id="cb5-34">    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">Week =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ifelse</span>(subgroup <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Positive"</span>, NOMTIME <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.15</span>, NOMTIME <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.05</span> )</span>
+<span id="cb5-35">  )</span></code></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><span class="do" style="color: #5E5E5E;
+background-color: null;
+font-style: italic;">## Take out the baseline visit</span></span>
+<span id="cb6-2">emm1df <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb6-3">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(contrasts.Visit <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">101</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> </span>
+<span id="cb6-4">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">left_join</span>(vis_dat) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb6-5">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> NOMTIME, </span>
+<span id="cb6-6">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> y, </span>
+<span id="cb6-7">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">group =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">interaction</span>(subgroup, contrasts.contrast))) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb6-8">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">theme_bw</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">base_size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">8</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb6-9">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_line</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">linetype =</span> subgroup)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb6-10">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_pointrange</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymean =</span> y,</span>
+<span id="cb6-11">                      <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymin =</span> y <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.96</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> contrasts.SE, </span>
+<span id="cb6-12">                      <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymax =</span> y <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.96</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> contrasts.SE),</span>
+<span id="cb6-13">                  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb6-14">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_x_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">breaks =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">14</span> , <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb6-15">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_y_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">breaks =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">seq</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span> , <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>),</span>
+<span id="cb6-16">                     <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">limits =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span>  </span>
+<span id="cb6-17">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Week"</span>, </span>
+<span id="cb6-18">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Placebo-subtracted weight loss (%)</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">Mean (95% CI)"</span>,</span>
+<span id="cb6-19">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">linetype =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Genetic marker"</span>) </span></code></pre></div>
+</div>
+<div class="cell" data-preview="true">
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1">pos <span class="ot" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">&lt;-</span> emm1df <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb7-2">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(contrasts.Visit <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">101</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> subgroup <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Negative"</span>)  </span>
+<span id="cb7-3">  </span>
+<span id="cb7-4"></span>
+<span id="cb7-5">emm1df <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span></span>
+<span id="cb7-6">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">filter</span>(contrasts.Visit <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">101</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> subgroup <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Negative"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">%&gt;%</span> </span>
+<span id="cb7-7">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ggplot</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> Week, </span>
+<span id="cb7-8">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> y, </span>
+<span id="cb7-9">             <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">group =</span> contrasts.contrast)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb7-10">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_hline</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">yintercept =</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.2</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb7-11">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_line</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">alpha =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb7-12">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_pointrange</span>(<span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymean =</span> y,</span>
+<span id="cb7-13">                      <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymin =</span> y <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.96</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> contrasts.SE, </span>
+<span id="cb7-14">                      <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymax =</span> y <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.96</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> contrasts.SE),</span>
+<span id="cb7-15">                  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">alpha =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.7</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"black"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.25</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb7-16">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_line</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> pos, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">alpha =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#c0392b"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> </span>
+<span id="cb7-17">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">geom_pointrange</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">data =</span> pos, </span>
+<span id="cb7-18">                  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">aes</span>(</span>
+<span id="cb7-19">                    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymean =</span> y,</span>
+<span id="cb7-20">                    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymin =</span> y <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.96</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> contrasts.SE, </span>
+<span id="cb7-21">                    <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">ymax =</span> y <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.96</span> <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> contrasts.SE), </span>
+<span id="cb7-22">                  <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">alpha =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.7</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">color =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"#c0392b"</span>, <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">size =</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.25</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb7-23">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_x_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">breaks =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">4</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">8</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb7-24">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">scale_y_continuous</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">breaks =</span> <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">c</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>,<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>, <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>)) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span>  </span>
+<span id="cb7-25">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">labs</span>(<span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">x =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Week"</span>, </span>
+<span id="cb7-26">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">y =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">""</span>, </span>
+<span id="cb7-27">       <span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">title =</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"Placebo-subtracted weight loss (kg)"</span>) <span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span></span>
+<span id="cb7-28">  <span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">paper_theme</span>() </span></code></pre></div>
+</div>
+<p>Let us put the placebo group back in, and at the same time improve the various graphical shortcomings of the plot (using appropriately spaced times on the x-axis, distinguishable plot symbols etc.). We obtain Figure 10C which displays the treatment-by-subgroup interaction over time (and clarifies that the error bars are 95% confidence intervals). Interestingly, we see some weight loss also in the biomarker-positive placebo group, and weight gain in the biomarker-negative placebo group. The treatment effect (active drug vs.&nbsp;placebo) is similar within each biomarker group. In other words, the biomarker appears prognostic for weight loss (at least under the conditions of this clinical trial which may include dietary or exercise advice), but not predictive for a treatment effect. Figure 4 displays the treatment effect directly, to make it obvious that it is the same irrespective of the genetic marker (Law 3).</p>
+<p>To complete our objective, we should present these results and our recommendation about the genetic marker to decision-makers. We need to show the results clearly and make the message obvious. In this context, the message is that the genetic marker is not predictive for a treatment effect; whether it is prognostic for weight loss is less important. Figure 10D supports our message most succinctly. Based on this figure, we finally craft a messaging slide that is suited for conveying this message in a meeting to a group of executives within seconds.</p>
+<p>Figure 10E shows this final slide. Guided by Laws 2 and 3, we arrived at this slide by considering the following principles and recommendations.</p>
+<ul>
+<li><p>Facilitate comparisons. We zoom in on the comparison of interest by appropriately restricting the y-axis. A reference line at zero indicates the position of no treatment effect, and a labelled arrow shows the direction of treatment benefit.</p></li>
+<li><p>Reduce cognitive load. We use direct labelling instead of a legend to identify the two subgroups. We select clearly distinguishable colors that also carry through to the subgroup labels.</p></li>
+<li><p>Adapt to your audience. We avoid writing the y-axis label vertically, by placing it above the plot and using it as its title. This is to prevent the audience from straining to read information during the meeting. We spell out that this is a treatment comparison (a difference) in terms of weight loss. We also reduce the size of the symbols representing the point estimates, to avoid the audience focusing too much on these and too little on the uncertainty intervals.</p></li>
+<li><p>Remove non-data ink. We reduce the number of ticks and points displayed on the x- and y-axes. They do not convey useful information for a short presentation, as we do not expect the audience to extract exact values. The connecting lines are pushed to the background by introducing a degree of transparency.</p></li>
+<li><p>Effective redundancy. We add a caption that spells out what is seen at week 12 (the primary endpoint), and we highlight the corresponding treatment effect estimates by an enclosing circle (a powerful grouping technique to draw attention). Finally, we place the main message directly as the title of the slide (setting the most important word, “not”, in bold), and as subtitle we explicitly put our recommendation: “Genetic marker does not warrant further investigation.”</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8" style="background: #f1f3f5;"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">sessionInfo</span>()</span></code></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>## R version 4.3.0 (2023-04-21)
+## Platform: aarch64-apple-darwin20 (64-bit)
+## Running under: macOS Ventura 13.6.3
+## 
+## Matrix products: default
+## BLAS:   /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/lib/libRblas.0.dylib 
+## LAPACK: /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/lib/libRlapack.dylib;  LAPACK version 3.11.0
+## 
+## locale:
+## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+## 
+## time zone: Europe/Zurich
+## tzcode source: internal
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets 
+## [6] methods   base     
+## 
+## other attached packages:
+##  [1] emmeans_1.8.9      lme4_1.1-33       
+##  [3] Matrix_1.5-4       data.table_1.14.8 
+##  [5] RColorBrewer_1.1-3 lubridate_1.9.2   
+##  [7] forcats_1.0.0      stringr_1.5.0     
+##  [9] dplyr_1.1.2        purrr_1.0.1       
+## [11] readr_2.1.4        tidyr_1.3.0       
+## [13] tibble_3.2.1       ggplot2_3.4.2     
+## [15] tidyverse_2.0.0    Hmisc_5.1-0       
+## 
+## loaded via a namespace (and not attached):
+##  [1] gtable_0.3.3       xfun_0.39         
+##  [3] htmlwidgets_1.6.2  lattice_0.21-8    
+##  [5] tzdb_0.4.0         vctrs_0.6.2       
+##  [7] tools_4.3.0        generics_0.1.3    
+##  [9] sandwich_3.0-2     fansi_1.0.4       
+## [11] cluster_2.1.4      pkgconfig_2.0.3   
+## [13] checkmate_2.2.0    lifecycle_1.0.3   
+## [15] farver_2.1.1       compiler_4.3.0    
+## [17] munsell_0.5.0      codetools_0.2-19  
+## [19] htmltools_0.5.5    yaml_2.3.7        
+## [21] htmlTable_2.4.1    Formula_1.2-5     
+## [23] pillar_1.9.0       nloptr_2.0.3      
+## [25] MASS_7.3-58.4      multcomp_1.4-25   
+## [27] rpart_4.1.19       boot_1.3-28.1     
+## [29] nlme_3.1-162       tidyselect_1.2.0  
+## [31] digest_0.6.31      mvtnorm_1.2-2     
+## [33] stringi_1.7.12     splines_4.3.0     
+## [35] fastmap_1.1.1      grid_4.3.0        
+## [37] colorspace_2.1-0   cli_3.6.1         
+## [39] magrittr_2.0.3     base64enc_0.1-3   
+## [41] survival_3.5-5     utf8_1.2.3        
+## [43] TH.data_1.1-2      foreign_0.8-84    
+## [45] withr_2.5.0        scales_1.2.1      
+## [47] backports_1.4.1    estimability_1.4.1
+## [49] timechange_0.2.0   rmarkdown_2.22    
+## [51] nnet_7.3-18        gridExtra_2.3     
+## [53] zoo_1.8-12         hms_1.1.3         
+## [55] coda_0.19-4        evaluate_0.21     
+## [57] knitr_1.43         rlang_1.1.1       
+## [59] Rcpp_1.0.10        xtable_1.8-4      
+## [61] glue_1.6.2         rstudioapi_0.14   
+## [63] minqa_1.2.5        jsonlite_1.8.4    
+## [65] plyr_1.8.8         R6_2.5.1</code></pre>
+</div>
+</div>
+
+
+
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-Lipkovich2017" class="csl-entry">
+Lipkovich, Ilya, Alex Dmitrienko, and Ralph B. D’Agostino Sr. 2017. <span>“Tutorial in Biostatistics: Data-Driven Subgroup Identification and Analysis in Clinical Trials.”</span> <em>Statistics in Medicine</em> 36 (1): 136–96. <a href="https://doi.org/10.1002/sim.7064">https://doi.org/10.1002/sim.7064</a>.
+</div>
+<div id="ref-Ruberg2015" class="csl-entry">
+Ruberg, Stephen J., and Lei Shen. 2015. <span>“Personalized Medicine: Four Perspectives of Tailored Medicine.”</span> <em>Statistics in Biopharmaceutical Research</em> 7 (3): 214–29. <a href="https://doi.org/10.1080/19466315.2015.1059354">https://doi.org/10.1080/19466315.2015.1059354</a>.
+</div>
+<div id="ref-Wang2007" class="csl-entry">
+Wang, Rui, Stephen W. Lagakos, James H. Ware, David J. Hunter, and Jeffrey M. Drazen. 2007. <span>“Statistics in Medicine - Reporting of Subgroup Analyses in Clinical Trials.”</span> <em>New England Journal of Medicine</em> 357 (21): 2189–94. <a href="https://doi.org/10.1056/NEJMsr077003">https://doi.org/10.1056/NEJMsr077003</a>.
+</div>
+</div></section></div> ]]></description>
+  <category>case studies</category>
+  <category>example code</category>
+  <guid>https://graphicsprinciples.github.io/posts/404-case4-subgroup/404-case4-subgroup.html</guid>
   <pubDate>Mon, 18 Dec 2023 23:00:00 GMT</pubDate>
 </item>
 </channel>

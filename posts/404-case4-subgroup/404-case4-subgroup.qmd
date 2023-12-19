@@ -15,7 +15,7 @@ categories:
   - case studies
   - example code
 bibliography: paper.bib
-draft: true
+draft: false
 ---
 
 ```{r setup, include = FALSE}
