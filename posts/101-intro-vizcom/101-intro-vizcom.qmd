@@ -1,0 +1,44 @@
+---
+title: "Effective visual communication"
+description: "A tutorial on effective visual communication for the quantitative scientist."
+author:
+  - name: "Marc Vandemeulebroecke"  
+    url: https://graphicsprinciples.github.io/
+  - name: "Mark Baillie"
+    url: https://graphicsprinciples.github.io/
+  - name: "Alison Margolskee"
+    url: https://graphicsprinciples.github.io/
+  - name: "Baldur Magnusson"
+    url: https://graphicsprinciples.github.io/
+date: today
+categories:
+  - introduction
+draft: false
+bibliography: biblio.bib
+preview: https://raw.githubusercontent.com/GraphicsPrinciples/GraphicsPrinciples.github.io/master/assets/2018-11-06_thumbnail.png
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Effective visual communication is a core competency for pharmacometricians, statisticians, and more generally any quantitative scientist. It is essential in every step of a quantitative workflow, from scoping to execution and communicating results and conclusions. With this competency, we can better understand data and influence decisions towards appropriate actions. Without it, we can fool ourselves and others and pave the way to wrong conclusions and actions. The goal of this tutorial is to convey this competency. 
+
+We posit three laws of effective visual communication for the quantitative scientist: 
+
+* have a clear purpose, 
+* show the data clearly, 
+* and make the message obvious. 
+
+We defined the [three laws of effective visual communication](https://graphicsprinciples.github.io/tutorial-case-studies/posts/201-three-laws-vizcom/) to provide overarching principled advice that can serve as a guiding star towards effective visual communication for the quantitative scientist. A concise [Cheat Sheet](https://github.com/GraphicsPrinciples/CheatSheet/blob/master/NVSCheatSheet.pdf), distills more granular recommendations for everyday practical use. Finally, these laws and recommendations are illustrated in four case studies. The aim of this site is to provide both the code, data and examples as stand alone posts. We hope that it proves useful for putting the three laws into practice.
+
+To further ease implementation in practice, it helps to distill the three laws in to even more detailed recommendations and illustrate them concretely. This is why we introduced a [cheat Sheet](https://github.com/GraphicsPrinciples/CheatSheet/blob/master/NVSCheatSheet.pdf). This single-page reference sheet is an integral part of this tutorial, carefully designed as a concise and accessible resource for everyday practical use. Yet, it draws from a wide range of sources including [@Bonate2014; @Doumont2002; @Cairo:2016; @Few:2012; @Ware:2004; @Wong2010PointsOV;
+@doumont2009trees; @Heer:2010; @Tufte1986; @Gelman2013; @Wong2010; @wong2010wall; @Tufte1997; 
+@Wainer1984; @munzner2015visualization; @Cleveland1985; @Cleveland.McGill1985; @Cleveland1987; @Wilkinson:2005; @tukey77; @Duke2015; @Robbins2012].
+
+The full version is [available](https://graphicsprinciples.github.io) along with corresponding [programming code in R](https://github.com/GraphicsPrinciples/CheatSheet). 
+
+The full published tutorial can is available and online at [CPT:PSP here](https://ascpt.onlinelibrary.wiley.com/doi/10.1002/psp4.12455).
+
+A pre-print of the complete tutorial can also be found at: https://arxiv.org/abs/1903.09512
+
